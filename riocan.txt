@@ -1,0 +1,1989 @@
+Response Text:
+Property.
+1293 Bloor Street West
+GLA.
+5,683
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+Bank of Montreal
+Property.
+1650 - 1660 Carling Avenue
+GLA.
+142,188
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Boston Pizza
+Property.
+1860 Bayview
+GLA.
+70,318
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+Shoppers Drug Mart, Cyclebar, TD , Whole Foods Market
+Property.
+1910 Bank St
+GLA.
+6,425
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Starbucks
+Property.
+2323 Yonge Street
+GLA.
+67,000
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+Bell, Chipotle Mexican Grill
+Property.
+2329 Yonge Street
+GLA.
+10,449
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+Dollarama
+Property.
+2345 Yonge Street
+GLA.
+165,000
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Shoppers Drug Mart
+Property.
+2422 Fairview Street
+GLA.
+6,221
+Contact.
+Howard Werger
+Phone.
+416-843-7204
+Availabilities
+N/A
+Major Tenants.
+Swiss Chalet
+Property.
+2453 Yonge Street
+GLA.
+9,812
+Contact.
+Howard Werger
+Phone.
+416-843-7204
+Availabilities
+N/A
+Major Tenants.
+TD
+Property.
+279 Rue St. Charles
+GLA.
+5,015
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+N/A
+Major Tenants.
+Bank of Montreal
+Property.
+2950 Carling Avenue
+GLA.
+10,442
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Dollarama
+Property.
+2955 Bloor Street West
+GLA.
+9,748
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+Swiss Chalet, RBC Royal Bank
+Property.
+2956 Eglinton Ave E
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+1,121 SF
+Property.
+2969 Bloor Street West
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Property.
+2978 Eglinton Ave E
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Property.
+2990 Eglinton Avenue East
+GLA.
+6,200
+Contact.
+Howard Werger
+Phone.
+416-843-7204
+Availabilities
+N/A
+Major Tenants.
+Swiss Chalet
+Property.
+404 Town Centre
+GLA.
+267,954
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+GoodLife Fitness, Shoppers Drug Mart, Harvey's, Metro, Dollarama, Laura Secord, Bank of Montreal, Walmart, Global Pet Foods
+Property.
+491 College Street
+GLA.
+23,500
+Contact.
+Howard Werger
+Phone.
+416-843-7204
+Availabilities
+N/A
+Major Tenants.
+LCBO
+Property.
+519 Brant Street
+GLA.
+5,190
+Contact.
+Derek Hogan
+Phone.
+416-847-8005
+Availabilities
+N/A
+Major Tenants.
+Bank of Montreal
+Property.
+5th and THIRD East Village
+GLA.
+178,000
+Contact.
+Laura Natale
+Phone.
+403-444-2861
+Availabilities
+2,225 SF, 2,345 SF, 1,420 SF, 3,390 SF
+Major Tenants.
+TD , Winners, Shoppers Drug Mart, Scotiabank, Subway, Real Canadian Superstore
+Property.
+602-606 King Street West
+GLA.
+53,864
+Contact.
+Gord Oughton
+Phone.
+undefined
+Availabilities
+N/A
+Property.
+642 King Street West
+GLA.
+25,992
+Contact.
+Gord Oughton
+Phone.
+undefined
+Availabilities
+793 SF, 2,637 SF
+Property.
+649 Queen St West
+GLA.
+14,200
+Contact.
+Howard Werger
+Phone.
+416-843-7204
+Availabilities
+N/A
+Major Tenants.
+CB2
+Property.
+6666 Lundy's Lane
+GLA.
+8,434
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+N/A
+Major Tenants.
+Swiss Chalet
+Property.
+740 Dupont
+GLA.
+35,000
+Contact.
+Howard Werger
+Phone.
+416-843-7204
+Availabilities
+N/A
+Major Tenants.
+Farm Boy , LCBO
+Property.
+85 Bloor Street West
+GLA.
+13,810
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+COS
+Property.
+945 Smyth Road
+GLA.
+8,532
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Bank of Montreal
+Property.
+Ajax Marketplace
+GLA.
+70,724
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+N/A
+Major Tenants.
+Food Basics, Bank of Montreal, Rexall , Little Caesar's, Dollarama
+Property.
+Albion Centre
+GLA.
+376,579
+Contact.
+Justyn Wood
+Phone.
+416-843-9184
+Availabilities
+2,450 SF, 816 SF, 260 SF, 2,808 SF, 1,313 SF
+Major Tenants.
+Subway, The Beer Store, A&W, No Frills, Dollarama, CIBC, Canadian Tire, Kumon Math And Reading Centre, Shoppers Drug Mart, Rogers, Real Fruit Bubble Tea, Tim Hortons, Bell, LCBO, YMCA, Specsavers, Bank of Montreal
+Property.
+Bathurst College Centre
+GLA.
+146,627
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Basil Box, Winners, Scotiabank, FreshCo.
+Property.
+Burlington Centre
+GLA.
+738,000
+Contact.
+Bryan Kolle
+Phone.
+416-866-8401
+Availabilities
+577 SF, 666 SF, 6,539 SF, 3,045 SF, 1,941 SF, 1,308 SF, 2,720 SF, 3,678 SF, 81,612 SF, 2,772 SF, 1,065 SF, 100 SF, 1,650 SF, 2,437 SF, 318 SF, 980 SF
+Major Tenants.
+CIBC, Freshii, Laura Secord, EB Games, Real Fruit Bubble Tea, Specsavers, TD , Chipotle Mexican Grill, East Side Mario's, Denninger's , Shoppers Drug Mart, Reitmans, Bank of Montreal, Rogers, Telus, HomeSense, Tip Top, Winners, Indigo , Bell, Flight Centre, Mark's, PetSmart, Old Navy, The Shoe Company, A&W, Subway, Tim Hortons, SportChek, Dollarama, Kelsey's, GoodLife Fitness
+Property.
+Centre Carnaval Pierrefonds
+GLA.
+129,589
+Contact.
+Gina Mastromonaco
+Phone.
+514-232-7570
+Availabilities
+7,668 SF
+Major Tenants.
+Super C, Dollarama, Subway, TD , SAQ
+Property.
+Centre Concorde
+GLA.
+63,298
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+N/A
+Major Tenants.
+IGA, Tim Hortons, Jean Coutu, Desjardins
+Property.
+Centre Rene A Robert
+GLA.
+75,025
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+N/A
+Major Tenants.
+Essaim, IGA
+Property.
+Centre RioCan Kirkland
+GLA.
+319,445
+Contact.
+Patrizia Ramundo
+Phone.
+438-342-3806
+Availabilities
+30,315 SF, 6,028 SF, 6,139 SF, 4,737 SF, 5,140 SF, 5,090 SF, 4,843 SF
+Major Tenants.
+Bouclair, Cineplex, Dollarama, Subway, Linen Chest, Tim Hortons
+Property.
+Centre Sicard
+GLA.
+106,329
+Contact.
+Gina Mastromonaco
+Phone.
+514-232-7570
+Availabilities
+N/A
+Major Tenants.
+Subway, Tim Hortons, Jean Coutu, TD , SAQ, IGA / Sobeys
+Property.
+Centre St. Jean
+GLA.
+104,280
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+4,850 SF, 11,369 SF
+Major Tenants.
+Uniprix, IGA, Tim Hortons, A&W
+Property.
+Centre St. Julie
+GLA.
+60,778
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+N/A
+Major Tenants.
+IGA, Essaim, Anytime Fitness
+Property.
+Centre St. Martin
+GLA.
+248,974
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+N/A
+Major Tenants.
+RBC Royal Bank, World Gym, Dollarama, Pharmaprix, Giant Tiger
+Property.
+Chapman Mills Marketplace
+GLA.
+566,673
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Walmart, Winners, Sephora, Bulk Barn, Bell, First Choice Haircutters, Kelsey's, Sleep Country Canada, Tim Hortons, Galaxy Theatres, Telus, EB Games, Play It Again Sports, Anytime Fitness, LCBO, Mark's, Scotiabank, TD , SportChek, Staples, PetSmart, Reitmans, Mastermind Toys, Rogers, Indigo , Carter's Osh Kosh, The Shoe Company, La Vie En Rose, Wendy's, Best Buy
+Property.
+Clarkson Crossing
+GLA.
+213,077
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+1,038 SF
+Major Tenants.
+LCBO, Bar Burrito, Pet Valu, Starbucks, Mastermind Toys, Canadian Tire, Metro, Shoppers Drug Mart, Mark's, Bank of Montreal, Rogers
+Property.
+Clarkson Village Shopping Centre
+GLA.
+63,835
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+1,737 SF, 1,648 SF
+Major Tenants.
+HomeSense, Dollarama, Global Pet Foods
+Property.
+Coliseum Ottawa
+GLA.
+109,260
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Cineplex, Shoppers Drug Mart
+Property.
+Corbett Centre
+GLA.
+457,458
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+2,010 SF, 1,199 SF
+Major Tenants.
+Winners, The Shoe Company, Gap, No Frills, Dollarama, Carter's Osh Kosh, Sleep Country Canada, Michaels, HomeSense, East Side Mario's, Montana's
+Property.
+Dufferin Plaza
+GLA.
+70,100
+Contact.
+Howard Werger
+Phone.
+416-843-7204
+Availabilities
+4,584 SF, 6,647 SF, 3,435 SF
+Major Tenants.
+Staples, TD , Tim Hortons, Swiss Chalet
+Property.
+Dundas 427 Marketplace
+GLA.
+97,885
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+N/A
+Major Tenants.
+Fit 4 Less
+Property.
+Eagles Landing
+GLA.
+175,672
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Lullaboo Nursery & Childcare Center, Sleep Country Canada, Starbucks, Dollarama, The Beer Store, Rogers, First Choice Haircutters, Pet Valu, TD , Subway, RBC Royal Bank, Hero Burger
+Property.
+East Hills Shopping Centre
+GLA.
+880,000
+Contact.
+Laura Natale
+Phone.
+403-444-2861
+Availabilities
+2,551 SF, 716 SF
+Major Tenants.
+Cineplex, Walmart, Sherwin-Williams, McDonald's, PetSmart, TD , CIBC, Subway, Starbucks, Rogers, Bulk Barn, Sleep Country Canada, Staples, Marshalls, Michaels, HomeSense, SportChek, Mark's, Dollarama, Bar Burrito, Mr. Lube
+Property.
+Edmonton Walmart Centre
+GLA.
+319,627
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+2,539 SF
+Major Tenants.
+Subway, Bar Burrito, Walmart, Wendy's, Bulk Barn, EB Games, Tim Hortons, Dollar Tree, Golf Town
+Property.
+ePlace
+GLA.
+23,500
+Contact.
+Josh Katz
+Phone.
+416-644-3032
+Availabilities
+442 SF, 355 SF, 377 SF, 187 SF, 187 SF
+Major Tenants.
+TD , Burgers Priest
+Property.
+Fairlawn Plaza
+GLA.
+8,322
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Sleep Country Canada
+Property.
+Galeries Laurentides
+GLA.
+30,314
+Contact.
+Gina Mastromonaco
+Phone.
+514-232-7570
+Availabilities
+3,000 SF
+Major Tenants.
+Service Canada
+Property.
+Galeries Mille-Iles
+GLA.
+252,450
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+N/A
+Major Tenants.
+CIBC, World Gym, SAQ, Staples
+Property.
+Garrard & Taunton
+GLA.
+146,835
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+5,118 SF
+Major Tenants.
+RONA
+Property.
+Georgian Mall
+GLA.
+601,755
+Contact.
+Bryan Kolle
+Phone.
+416-866-8401
+Availabilities
+2,085 SF, 2,041 SF, 2,079 SF, 360 SF, 2,085 SF, 1,152 SF, 1,037 SF, 936 SF, 361 SF, 580 SF, 1,499 SF, 1,868 SF, 1,599 SF, 1,182 SF, 3,020 SF, 3,020 SF, 3,024 SF, 1,488 SF, 3,583 SF, 1,233 SF, 2,207 SF, 1,335 SF, 1,335 SF, 7,018 SF, 558 SF, 24,822 SF, 150 SF
+Major Tenants.
+Tip Top, Laura Secord, H&M, A&W, Roots, Zumiez, Sephora, Tim Hortons, Bell, Soft Moc, American Eagle Outfitters, IKEA, Rogers, Bath & Body Works, La Vie En Rose, Shoppers Drug Mart, Subway, Body Shop, Bikini Village, Swarovski, Real Fruit Bubble Tea, Garage Clothing Co., EB Games, Telus, Rocky Mountain Chocolate Factory, SportChek, Bank of Montreal, Carter's Osh Kosh, Hudson's Bay Company, Structube , L.L. Bean, Coles, Starbucks, Pandora
+Property.
+Glendale Marketplace
+GLA.
+53,963
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+N/A
+Major Tenants.
+Rexall , Subway
+Property.
+Grandview Corners
+GLA.
+614,319
+Contact.
+Laura Natale
+Phone.
+403-444-2861
+Availabilities
+4,141 SF
+Major Tenants.
+TD , Scotiabank, Mark's, The Home Depot, Sephora, Skechers, La Vie En Rose, Bell, Garage Clothing Co., Adidas, Indigo , Old Navy, Soft Moc, Tim Hortons, The Brick, Walmart, Best Buy, Kumon Math And Reading Centre, Subway, CIBC
+Property.
+Grant Crossing
+GLA.
+365,345
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Winners, Bouclair, Value Village, Dollarama, HomeSense, National Bank Of Canada, The Shoe Company, Michaels, Bar Burrito, CIBC, Re/Max
+Property.
+Halton Hills Shopping Centre
+GLA.
+73,030
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+N/A
+Major Tenants.
+Dollarama, Pet Valu, Bulk Barn, Food Basics, TD
+Property.
+Hamilton Walmart Centre
+GLA.
+312,914
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+5,005 SF
+Major Tenants.
+Sleep Country Canada, Staples, Bouclair, RBC Royal Bank, Walmart, First Choice Haircutters, Carter's Osh Kosh, Healthy Planet, Dollar Tree, Subway, Winners, CIBC, La Vie En Rose, Bank of Montreal, Shoppers Drug Mart
+Property.
+Heart Lake Town Centre
+GLA.
+123,572
+Contact.
+Justyn Wood
+Phone.
+416-843-9184
+Availabilities
+N/A
+Major Tenants.
+Bank of Montreal, Metro, First Choice Haircutters, Shoppers Drug Mart, The Beer Store, Dollarama, Subway, Wendy's
+Property.
+Herongate Square
+GLA.
+270,000
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+PetSmart, Dollarama, GoodLife Fitness, Rexall , Subway, Little Caesar's, Metro, Scotiabank, A&W
+Property.
+Hunt Club Centre
+GLA.
+67,186
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+4,098 SF, 1,572 SF
+Major Tenants.
+Shoppers Drug Mart, Scotiabank, Metro
+Property.
+Jasper Gates Shopping Centre
+GLA.
+146,063
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+6,740 SF, 2,634 SF, 5,680 SF
+Major Tenants.
+Dollarama, Specsavers, Little Caesar's, Orangetheory Fitness, Subway, Bar Burrito, Starbucks, TD , London Drugs
+Property.
+Kendalwood Park Plaza
+GLA.
+158,688
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+2,528 SF
+Major Tenants.
+The Beer Store, Shoppers Drug Mart, FreshCo., Value Village, Dollarama, Pet Valu, M&M Food Market, Bar Burrito, Play It Again Sports
+Property.
+King Portland Centre
+GLA.
+331,000
+Contact.
+Gord Oughton
+Phone.
+undefined
+Availabilities
+N/A
+Major Tenants.
+Indigo
+Property.
+Lawrence Allen Centre
+GLA.
+657,821
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+103,725 SF, 6,532 SF, 982 SF, 9,848 SF, 825 SF, 1,027 SF, 563 SF, 5,357 SF, 2,413 SF, 2,640 SF, 2,059 SF, 8,325 SF, 3,929 SF, 2,425 SF, 2,425 SF, 2,899 SF, 2,899 SF, 1,127 SF, 950 SF
+Major Tenants.
+Specsavers, Fortino's, Canadian Tire, HomeSense, PetSmart, Structube , Tim Hortons, Service Canada, Scotiabank, Dollarama, Fit 4 Less, LCBO, Rexall , McDonald's, Bar Burrito, Medix, Real Fruit Bubble Tea, Marshalls, Toys R Us, Value Village, Bell, Hudson's Bay Company, The Source
+Property.
+Lawrence Plaza
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+5,935 SF
+Major Tenants.
+Carter's Osh Kosh, Winners, Second Cup , Metro, CIBC, LCBO, Shoppers Drug Mart, The Shoe Company
+Property.
+Les Galeries Lachine
+GLA.
+167,383
+Contact.
+Patrizia Ramundo
+Phone.
+438-342-3806
+Availabilities
+1,266 SF, 1,968 SF, 1,022 SF, 1,504 SF, 825 SF, 2,971 SF, 1,968 SF, 1,334 SF, 723 SF, 1,424 SF, 4,979 SF
+Major Tenants.
+Banque Nationale, Dollarama, TD , Subway, Pharmaprix, Bell
+Property.
+Lowe's Sunridge Centre
+GLA.
+213,100
+Contact.
+Abby Billard
+Phone.
+403-463-1376
+Availabilities
+N/A
+Major Tenants.
+RONA, RBC Royal Bank, Subway, Dollar Tree, GoodLife Fitness, Golf Town
+Property.
+Luma
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Pet Valu
+Property.
+Meadow Ridge Plaza
+GLA.
+111,762
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+McDonald's, Subway, The Beer Store, Dollarama, Scotiabank, GoodLife Fitness
+Property.
+Mega Centre Notre-Dame
+GLA.
+546,505
+Contact.
+Gina Mastromonaco
+Phone.
+514-232-7570
+Availabilities
+6,010 SF, 3,954 SF, 5,050 SF, 3,046 SF, 2,504 SF, 3,548 SF, 3,506 SF, 3,060 SF
+Major Tenants.
+Harvey's, Sleep Country Canada, La Vie En Rose, Carter's Osh Kosh, Sports Experts, Service Canada, Tommy Hilfiger, SAQ, Second Cup , Guess, TD , Dollarama, Gap, Urban Planet, JYSK, Gold's Gym
+Property.
+Millcroft Shopping Centre
+GLA.
+357,360
+Contact.
+Bryan Kolle
+Phone.
+416-866-8401
+Availabilities
+N/A
+Major Tenants.
+Metro, The Beer Store, Value Village, Shoppers Drug Mart, Mark's, McDonald's, TD , LCBO
+Property.
+Mount Sinai Food Hall
+GLA.
+3,586
+Contact.
+Ethan Yaphe
+Phone.
+416-697-9623
+Availabilities
+N/A
+Major Tenants.
+Aroma, Bar Burrito
+Property.
+Northgate Village Shopping Centre
+GLA.
+395,990
+Contact.
+Laura Natale
+Phone.
+403-444-2861
+Availabilities
+3,230 SF, 4,724 SF, 6,755 SF, 1,858 SF, 1,704 SF, 808 SF, 1,278 SF, 2,268 SF
+Major Tenants.
+Tim Hortons, Harvey's, Wendy's, Red Lobster, Olive Garden, Dollarama, Gold's Gym, Safeway
+Property.
+Oakville Place
+GLA.
+462,035
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+120 SF, 120 SF, 1,738 SF, 712 SF, 2,886 SF, 1,459 SF, 1,674 SF, 1,810 SF, 3,282 SF
+Major Tenants.
+Telus, Shoppers Drug Mart, Body Shop, Garage Clothing Co., Carter's Osh Kosh, Bath & Body Works, Bell, Tip Top, Soft Moc, Roots, Purdy's Chocolates, Specsavers, H&M, SportChek, Hudson's Bay Company, Pandora, L.L. Bean, Mark's, GoodLife Fitness, Bank of Montreal, Sephora, Rogers, Best Buy, Bikini Village, Dollarama, La Vie En Rose, Real Fruit Bubble Tea, Swarovski, A&W, Bar Burrito, Tim Hortons, PetSmart
+Property.
+Place Carnaval Laval
+GLA.
+108,214
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+N/A
+Major Tenants.
+Adonis, Jean Coutu, TD , Subway, Dollarama
+Property.
+Place La Prairie
+GLA.
+70,934
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+N/A
+Major Tenants.
+IGA, The Source, Dollarama
+Property.
+Queensway Cineplex
+GLA.
+122,976
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Property.
+Rhythm
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+6,072 SF
+Major Tenants.
+Pet Valu
+Property.
+RioCan Beacon Hill
+GLA.
+787,206
+Contact.
+Abby Billard
+Phone.
+403-463-1376
+Availabilities
+4,001 SF
+Major Tenants.
+Michaels, PetSmart, Rogers, Montana's, La Vie En Rose, A&W, Golf Town, SportChek, Subway, Telus, TD , Reitmans, Penningtons, Starbucks, The Shoe Company, Dollarama, GoodLife Fitness, Mark's, Shoppers Drug Mart, Canadian Tire, Winners, Best Buy, EB Games, Paris Baguette, The Brick, Bell, Home Depot
+Property.
+RioCan Brentwood
+GLA.
+286,594
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+2,464 SF, 3,046 SF, 974 SF, 1,005 SF
+Major Tenants.
+Anytime Fitness, Harvey's, London Drugs, FreshCo., TD , ATB Financial, Starbucks, Sleep Country Canada, Toys R Us, HomeSense, Dollarama, Bank of Montreal
+Property.
+RioCan Bristol
+GLA.
+96,571
+Contact.
+Justyn Wood
+Phone.
+416-843-9184
+Availabilities
+N/A
+Major Tenants.
+Value Village, A Buck Or Two, Fit 4 Less, McDonald's, Bar Burrito, Subway, Bank of Montreal
+Property.
+RioCan Centre Barrie
+GLA.
+244,589
+Contact.
+Bryan Kolle
+Phone.
+416-866-8401
+Availabilities
+N/A
+Major Tenants.
+Zehrs, RBC Royal Bank, RONA, MEC, RBC Insurance
+Property.
+RioCan Centre Belcourt
+GLA.
+402,989
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Food Basics, Dollar Tree, Toys R Us, RONA, East Side Mario's, Pet Valu, CIBC
+Property.
+RioCan Centre Burloak
+GLA.
+454,656
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+13,004 SF, 10,989 SF, 7,003 SF, 5,001 SF, 3,000 SF, 14,002 SF, 1,620 SF, 1,506 SF, 2,001 SF, 3,254 SF, 12,074 SF, 6,000 SF, 1,800 SF, 5,000 SF, 5,001 SF
+Major Tenants.
+Longo's, Dollarama, Cineplex, La Vie En Rose, Tommy Hilfiger, Carter's Osh Kosh, Sleep Country Canada, Guess, Skechers, Structube , Old Navy, Kelsey's, Swiss Chalet, Montana's, Milestone's Restaurant
+Property.
+RioCan Centre Kingston
+GLA.
+756,093
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+5,067 SF
+Major Tenants.
+Cineplex, Staples, HomeSense, Michaels, Giant Tiger, The Brick, Food Basics, Best Buy, PetSmart, Golf Town, JYSK, Dollarama, EB Games, Bell, Starbucks, East Side Mario's, Freshii, Scotiabank, Kelsey's, Montana's, Under Armour, TD , Structube , Lee Valley , Old Navy, Mark's, Skechers, Little Caesar's, The Shoe Company
+Property.
+RioCan Centre Milton
+GLA.
+291,465
+Contact.
+Justyn Wood
+Phone.
+416-843-9184
+Availabilities
+N/A
+Major Tenants.
+PetSmart, The Beer Store, Dollarama, CIBC, Bank of Montreal, Telus, Bell, L.A. Fitness, Sephora, Sleep Country Canada, Cineplex, Boston Pizza
+Property.
+RioCan Centre Sudbury
+GLA.
+669,193
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+N/A
+Major Tenants.
+Kelsey's, Chapters, The Shoe Company, No Frills, Staples, Dollar Tree, PetSmart, Old Navy, Michaels, Skechers, Structube , Boston Pizza, La Vie En Rose, Under Armour, Tip Top, Montana's
+Property.
+RioCan Clearbrook
+GLA.
+189,552
+Contact.
+Laura Natale
+Phone.
+403-444-2861
+Availabilities
+5,515 SF
+Major Tenants.
+Boston Pizza, Canada Post, BC Liquor Store, Mastermind Toys, Staples, A&W, Sherwin-Williams, FreshCo., RBC Royal Bank, GoodLife Fitness
+Property.
+RioCan Colossus
+GLA.
+702,228
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+5,473 SF, 4,147 SF
+Major Tenants.
+Tim Hortons, Guess, Sephora, Marshalls, La Vie En Rose, Linen Chest, Hero Burger, PetSmart, Structube , Golf Town, Shoeless Joe's, Tip Top, HomeSense, Dollarama, Costco, Giant Tiger, Longo's, Staples, Party City
+Property.
+RioCan Dawson Manor
+GLA.
+66,721
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+2,224 SF
+Major Tenants.
+Staples, Mark's
+Property.
+RioCan Dixie & Dundas
+GLA.
+175,672
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+N/A
+Major Tenants.
+Tim Hortons, Rexall , FreshCo., L.A. Fitness
+Property.
+RioCan Donald
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Staples, Winners, Dollarama, Tim Hortons, Subway
+Property.
+RioCan Dundas East
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+N/A
+Major Tenants.
+Mr. Lube, A&W, Tim Hortons
+Property.
+RioCan Durham
+GLA.
+1,089,368
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+N/A
+Major Tenants.
+EB Games, Sephora, The Brick, Party City, The Keg, Bell, Mark's, Dollarama, Reitmans, Garage Clothing Co., Gap, LCBO, Chapters, Winners, Walmart, Carter's Osh Kosh, Soft Moc, Specsavers, Bank of Montreal, Under Armour, Canadian Tire, Sleep Country Canada, The Shoe Company, PetSmart, Structube , Telus, La Vie En Rose, Roots, Healthy Planet, Marshalls, Tim Hortons, HomeSense, Michaels, Dollar Tree, Value Village, Guess, Bath & Body Works, CIBC, Penningtons, Cineplex
+Property.
+RioCan Elgin Mills Crossing
+GLA.
+441,325
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Subway, Hero Burger, Freshii, Dollarama, Orangetheory Fitness, Michaels, TD , Bar Burrito, Staples, Scotiabank, Paris Baguette, Pi Co., Healthy Planet, PetSmart, Costco, Home Depot
+Property.
+RioCan Elmvale
+GLA.
+146,699
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+2,400 SF, 1,080 SF, 868 SF, 350 SF, 1,405 SF
+Major Tenants.
+Dollarama, Home Hardware, LCBO, Rexall , The Beer Store, First Choice Haircutters, Starbucks, RBC Royal Bank
+Property.
+RioCan Empress
+GLA.
+238,811
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+1,383 SF, 3,518 SF, 3,518 SF
+Major Tenants.
+Shoppers Drug Mart, Cineplex, Dollarama, Wendy's, PetSmart, LCBO, Real Fruit Bubble Tea, RBC Royal Bank, Second Cup
+Property.
+RioCan Five Points
+GLA.
+191,034
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+N/A
+Major Tenants.
+Starbucks, L.A. Fitness, Dollarama, JYSK, Value Village, Metro, TD , The Beer Store, Rogers, Mr. Lube
+Property.
+RioCan Gatineau
+GLA.
+300,007
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Canadian Tire, Walmart, EB Games, Super C
+Property.
+RioCan Glenmore
+GLA.
+146,061
+Contact.
+Abby Billard
+Phone.
+403-463-1376
+Availabilities
+3,027 SF, 1,066 SF, 1,508 SF, 1,672 SF, 1,025 SF, 495 SF, 1,664 SF, 881 SF
+Major Tenants.
+Subway, Telus, Safeway, TD , Bank of Montreal, Starbucks, McDonald's
+Property.
+RioCan Grand Park
+GLA.
+118,681
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+N/A
+Major Tenants.
+Winners, Fit 4 Less, Staples, Shoppers Drug Mart, Kelsey's, First Choice Haircutters
+Property.
+RioCan Green Lane
+GLA.
+417,668
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+6,973 SF
+Major Tenants.
+Sleep Country Canada, Reitmans, First Choice Haircutters, Carter's Osh Kosh, Bulk Barn, Dollar Tree, PetSmart, Michaels, Value Village, Kelsey's, Milestone's Restaurant
+Property.
+RioCan Hall
+GLA.
+227,326
+Contact.
+Josh Katz
+Phone.
+416-644-3032
+Availabilities
+N/A
+Major Tenants.
+GoodLife Fitness, Michaels, Marshalls, No Frills
+Property.
+RioCan Harwood
+GLA.
+180,151
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+4,475 SF
+Major Tenants.
+Best Buy, Old Navy, Kelsey's
+Property.
+RioCan Kanata
+GLA.
+386,336
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Loblaws, Subway, Pet Valu, Baskin Robbins, Dollarama, Healthy Planet, Chapters, Walmart, Bell, First Choice Haircutters, Kelsey's, TD , Montana's, Harvey's
+Property.
+RioCan La Gappe
+GLA.
+372,883
+Contact.
+Andrew Mikhail
+Phone.
+514-679-8892
+Availabilities
+4,986 SF
+Major Tenants.
+Subway, Carter's Osh Kosh, Dollarama, Bulk Barn, Reitmans, Walmart, Mark's, Sleep Country Canada, EB Games, Michaels, Golf Town, Boston Pizza, Bouclair, TD , Anytime Fitness, Starbucks, Winners, Desjardins, Structube
+Property.
+RioCan Langley Centre
+GLA.
+380,088
+Contact.
+Laura Natale
+Phone.
+403-444-2861
+Availabilities
+N/A
+Major Tenants.
+Montana's, Under Armour, Olive Garden, The Shoe Company, No Frills, Tip Top, Marshalls, Michaels, Golf Town, La Vie En Rose, Party City, Bank of Montreal, Indigo , Leon's, PetSmart, Mastermind Toys, Milestone's Restaurant
+Property.
+RioCan Leaside Centre
+GLA.
+133,035
+Contact.
+Howard Werger
+Phone.
+416-843-7204
+Availabilities
+N/A
+Major Tenants.
+Canadian Tire, Canadian Tire Showroom
+Property.
+RioCan Lincoln
+GLA.
+284,947
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Metro, Rexall , Wendy's
+Property.
+RioCan Marketplace Toronto
+GLA.
+447,438
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Winners, Bulk Barn, Sephora, Fit 4 Less, Pet Valu, Dollarama, Fabricland, Sherwin-Williams, Real Fruit Bubble Tea, LCBO, Freshii, Canada Post, Sleep Country Canada, Starbucks, Subway, First Choice Haircutters
+Property.
+RioCan Markington
+GLA.
+173,029
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+Metro, GoodLife Fitness, Dollarama
+Property.
+RioCan Mayfield
+GLA.
+429,682
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+N/A
+Major Tenants.
+Boston Pizza, Penningtons, Rogers, JYSK, Carter's Osh Kosh, Party City, Dollarama, The Shoe Company, Pet Valu, Sephora, Value Village, Joey, Second Cup , A&W
+Property.
+RioCan Meadowlands
+GLA.
+589,209
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Best Buy, Michaels, SportChek, Structube , PetSmart, Carter's Osh Kosh, Sherwin-Williams
+Property.
+RioCan Meadows
+GLA.
+409,184
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+1,322 SF
+Major Tenants.
+TD , ATB Financial, Dollarama, Winners, Value Village, Montana's, RBC Insurance, Little Caesar's, Staples, RBC Royal Bank, Bell, Home Depot, Sephora, Specsavers, Sleep Country Canada, Scotiabank, CIBC, PetSmart, Skechers, Mark's, Subway
+Property.
+RioCan Merivale Place
+GLA.
+200,177
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+8,206 SF
+Major Tenants.
+The Shoe Company, No Frills, Anytime Fitness, Winners, Dollarama, Value Village, The Beer Store, Scotiabank
+Property.
+RioCan Newmarket
+GLA.
+92,688
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Mr. Lube, Dollarama, Pet Valu, First Choice Haircutters, Metro, Bank of Montreal, A&W
+Property.
+RioCan Niagara Falls
+GLA.
+393,739
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+N/A
+Major Tenants.
+Zehrs
+Property.
+RioCan Orleans
+GLA.
+297,251
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Metro, The Home Depot, Tim Hortons, Shoeless Joe's, Staples, Penningtons, Party City, JYSK, Reitmans, Sleep Country Canada, First Choice Haircutters, Real Fruit Bubble Tea, Subway
+Property.
+RioCan Riverbend
+GLA.
+138,654
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+332 SF, 383 SF, 606 SF
+Major Tenants.
+CIBC, Orangetheory Fitness, Safeway, TD , Subway, Desjardins, Shoppers Drug Mart
+Property.
+RioCan Scarborough Centre
+GLA.
+326,823
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+L.A. Fitness, Costco, McDonald's, Kelsey's, Value Village, Staples, TD , PetSmart, Sherwin-Williams, Skechers
+Property.
+RioCan Shawnessy
+GLA.
+841,105
+Contact.
+Abby Billard
+Phone.
+403-463-1376
+Availabilities
+N/A
+Major Tenants.
+First Choice Haircutters, Value Village, Global Pet Foods, Subway, M&M Food Market, Swiss Chalet, Boston Pizza, ATB Financial, Dollarama, Play It Again Sports, Tim Hortons, La Vie En Rose, Winners, CIBC, Shoppers Drug Mart, Best Buy, SportChek, Staples, Bar Burrito, The Shoe Company, Mark's, Reitmans, The Brick, London Drugs, Michaels
+Property.
+RioCan Signal Hill Centre
+GLA.
+592,173
+Contact.
+Abby Billard
+Phone.
+403-463-1376
+Availabilities
+2,543 SF
+Major Tenants.
+Sephora, Adidas, Staples, Dollarama, Winners, Second Cup , Marshalls, A&W, Indigo , Little Caesar's, Tip Top, A Buck Or Two, La Vie En Rose, Harvey's, Tim Hortons, RONA, The Keg, RBC Royal Bank, Freshii, RBC Insurance, Structube , TD , Pet Valu, The Shoe Company, Michaels
+Property.
+RioCan Southgate
+GLA.
+72,627
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Tim Hortons, Dollarama, First Choice Haircutters, Rogers, Pet Valu, Subway, Real Fruit Bubble Tea, Scotiabank, Shoppers Drug Mart, Metro
+Property.
+RioCan St. Laurent
+GLA.
+308,031
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Dollar Tree, Boston Pizza, Global Pet Foods, Food Basics, National Bank Of Canada, LCBO, First Choice Haircutters, Party City, Giant Tiger, Adonis
+Property.
+RioCan Thickson Ridge
+GLA.
+492,031
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+N/A
+Major Tenants.
+PetSmart, Winners, JYSK, Bouclair, HomeSense, MEC, Golf Town, Best Buy, Michaels, Structube , Sherwin-Williams
+Property.
+RioCan Thornhill
+GLA.
+140,370
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+No Frills, Dollarama, HomeSense, Winners, TD , Sleep Country Canada
+Property.
+RioCan Warden
+GLA.
+230,967
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+The Shoe Company, Sleep Country Canada, First Choice Haircutters, Subway, Penningtons, RONA, Michaels, Marshalls, Dollar Tree
+Property.
+RioCan Westgate
+GLA.
+165,660
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+6,839 SF, 2,106 SF, 64 SF, 15,965 SF, 1,306 SF, 470 SF, 473 SF, 500 SF, 1,796 SF, 2,503 SF, 1,969 SF, 1,352 SF, 1,104 SF, 2,207 SF, 435 SF, 791 SF, 771 SF, 600 SF
+Major Tenants.
+Shoppers Drug Mart, TD , Second Cup , Canada Post
+Property.
+RioCan Windfields
+GLA.
+839,000
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+FreshCo., Service Canada, Dollarama, Starbucks, Tim Hortons, Wendy's, Scotiabank, Bar Burrito, LCBO, Baskin Robbins, Pet Valu, TD , Kumon Math And Reading Centre, PetSmart, Bank of Montreal, Subway, Sleep Country Canada
+Property.
+RioCan Woodview Place
+GLA.
+145,401
+Contact.
+Bryan Kolle
+Phone.
+416-866-8401
+Availabilities
+N/A
+Major Tenants.
+LCBO, Food Basics, Fit 4 Less, Party City, National Bank Of Canada
+Property.
+RioCentre Brampton
+GLA.
+103,607
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+N/A
+Major Tenants.
+Real Fruit Bubble Tea, Global Pet Foods, Bar Burrito, Food Basics, Harvey's, Bulk Barn, Sleep Country Canada, Anytime Fitness, Mr. Lube, TD
+Property.
+RioCentre Kanata
+GLA.
+108,562
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Pet Valu, First Choice Haircutters, Bar Burrito, Dollarama, Sobeys, Little Caesar's, LCBO, Rexall
+Property.
+RioCentre Oakville
+GLA.
+106,884
+Contact.
+Justyn Wood
+Phone.
+416-843-9184
+Availabilities
+N/A
+Major Tenants.
+McDonald's, Bar Burrito, Mr. Lube, Tim Hortons, TD , Food Basics, Dollarama, Shoppers Drug Mart, Subway
+Property.
+Sage Hill Crossing
+GLA.
+384,000
+Contact.
+Abby Billard
+Phone.
+403-463-1376
+Availabilities
+1,938 SF, 1,355 SF
+Major Tenants.
+Walmart, Scotiabank, McDonald's, RBC Royal Bank, Tim Hortons, Pet Valu, ATB Financial, Bulk Barn, Dollarama, Subway, Value Village
+Property.
+Shoppers City East
+GLA.
+209,000
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+The Beer Store, A&W, Tim Hortons, Bar Burrito, Shoppers Drug Mart, Costco
+Property.
+Shoppers World Brampton
+GLA.
+694,016
+Contact.
+Justyn Wood
+Phone.
+416-843-9184
+Availabilities
+2,246 SF, 1,545 SF, 1,963 SF, 2,383 SF, 761 SF, 1,355 SF, 1,836 SF, 865 SF, 1,063 SF, 810 SF, 807 SF, 947 SF, 1,242 SF, 2,875 SF, 4,041 SF, 3,873 SF, 2,086 SF, 1,176 SF, 852 SF, 605 SF, 902 SF, 483 SF, 2,031 SF, 1,773 SF, 1,949 SF, 1,427 SF, 3,323 SF, 390 SF, 351 SF, 308 SF, 1,023 SF, 29,671 SF
+Major Tenants.
+Little Caesar's, Rogers, Anderson College, The Beer Store, Specsavers, Tim Hortons, Rexall , IQBAL Foods, Fit 4 Less, Value Village, Fabricland, JYSK, Staples, Giant Tiger, GoodLife Fitness, Canadian Tire, Urban Planet, Dollarama, Real Fruit Bubble Tea, Bank of Montreal, Bell, Aldo, Bank of Montreal ATM, Subway, Carter's Osh Kosh, Bulk Barn, Foot Locker, Winners, A&W
+Property.
+Shoppers World Danforth
+GLA.
+326,303
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+1,215 SF, 1,696 SF
+Major Tenants.
+Real Fruit Bubble Tea, Metro, Staples, Shoppers Drug Mart, M&M Food Market, Specsavers, Reitmans, Rogers, Dollarama, Bulk Barn, CIBC, Pet Valu, Subway, L.A. Fitness
+Property.
+Shoppes On Avenue
+GLA.
+20,884
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Rogers, Bank of Montreal
+Property.
+Silver City Gloucester
+GLA.
+145,468
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Fit 4 Less, Montana's, Chapters, East Side Mario's
+Property.
+South Cambridge Shopping Centre
+GLA.
+189,739
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+N/A
+Major Tenants.
+A&W, LCBO, Home Hardware, TD , Rogers, Dollarama, Pet Valu, First Choice Haircutters, The Beer Store, Bell, Zehrs, GoodLife Fitness
+Property.
+South Edmonton Common
+GLA.
+981,488
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+35,000 SF, 1,153 SF, 5,502 SF, 809 SF
+Major Tenants.
+A&W, Boston Pizza, Telus, Bell, Golf Town, Tommy Hilfiger, GNC, Rogers, The Brick, Michaels, Swiss Chalet, Old Navy, Soft Moc, Bulk Barn, Party City, Dollar Tree, Dollarama, Reitmans, Second Cup , Garage Clothing Co., London Drugs, Mastermind Toys, The Shoe Company, Chipotle Mexican Grill
+Property.
+South Hamilton Square
+GLA.
+298,527
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+1,600 SF, 3,335 SF
+Major Tenants.
+Flying Squirrel, Fabricland, JYSK, GoodLife Fitness, Dollarama, Fortino's, LCBO, Pet Valu, Subway, Scotiabank, Wendy's, Kelsey's, CIBC
+Property.
+South Trail Crossing
+GLA.
+311,684
+Contact.
+Laura Natale
+Phone.
+403-444-2861
+Availabilities
+2,620 SF, 4,281 SF
+Major Tenants.
+Boston Pizza, Bank of Montreal, Mr. Lube, A&W, PetSmart, Mastermind Toys, La Vie En Rose, The Shoe Company, Winners, SportChek, Dollarama, Staples, HomeSense, Marshalls, Sephora, Sherwin-Williams, Wendy's, M&M Food Market, Subway
+Property.
+Southbank Centre
+GLA.
+421,227
+Contact.
+Abby Billard
+Phone.
+403-463-1376
+Availabilities
+N/A
+Major Tenants.
+Sherwin-Williams, Bulk Barn, Winners, Michaels, Dollarama, Pet Valu, GoodLife Fitness, Carter's Osh Kosh, The Shoe Company, SportChek, Sleep Country Canada
+Property.
+Spring Farm Marketplace
+GLA.
+72,896
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+Sobeys, Shoppers Drug Mart
+Property.
+Stock Yards Village
+GLA.
+504,179
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+1,931 SF, 1,225 SF, 1,211 SF
+Major Tenants.
+Tim Hortons, Shoeless Joe's, Snuggle Bugz, La Vie En Rose, The Children's Place, The Shoe Company, Marshalls, PetSmart, SportChek, Sleep Country Canada, Healthy Planet, Old Navy, Dollarama, Bulk Barn, RBC Royal Bank, Chipotle Mexican Grill, Bell, Rogers, Roots, Winners, HomeSense, Structube , Michaels, Anytime Fitness, Carter's Osh Kosh, Royal LePage, Nations Fresh Foods
+Property.
+Summerwood Centre
+GLA.
+83,980
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+N/A
+Major Tenants.
+Bank of Montreal, Shoppers Drug Mart, TD , Save-On-Foods
+Property.
+Tanger Outlets Cookstown
+GLA.
+310,594
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+6,204 SF, 4,742 SF, 2,322 SF, 2,224 SF, 4,935 SF, 2,847 SF, 3,176 SF, 11,179 SF
+Major Tenants.
+Soft Moc, Under Armour, Adidas, Harvey's, Bath & Body Works, La Vie En Rose, Levi's Outlet, Aldo, H&M, American Eagle Outfitters, Carter's Osh Kosh, Body Shop, Bikini Village, Guess, Tommy Hilfiger, Skechers, Gap, Old Navy, Bar Burrito, Tim Hortons, Subway, The Shoe Company, Pandora, Swarovski, Laura Secord
+Property.
+Tanger Outlets Ottawa
+GLA.
+340,963
+Contact.
+Scott Carver
+Phone.
+(336) 856-6051
+Availabilities
+4,956 SF, 2,344 SF, 3,021 SF, 5,869 SF, 4,215 SF, 1,097 SF, 2,507 SF, 1,603 SF
+Major Tenants.
+Starbucks, Adidas, Carter's Osh Kosh, Under Armour, Reebok, The Shoe Company, Soft Moc, Bath & Body Works, Fossil, Aldo, Old Navy, Tommy Hilfiger, Gap, American Eagle Outfitters, Zumiez, Roots, Real Fruit Bubble Tea, Nike Factory Store, Levi's Outlet, Skechers, Guess, La Vie En Rose, Marshalls, Subway, Body Shop
+Property.
+The Market at Citadel
+GLA.
+50,678
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+N/A
+Major Tenants.
+Shoppers Drug Mart, Scotiabank, East Side Mario's
+Property.
+The Well
+GLA.
+1,520,000
+Contact.
+Kariv Oretsky
+Phone.
+647-236-3409
+Availabilities
+2,376 SF, 2,561 SF, 1,728 SF, 1,500 SF, 2,563 SF, 1,408 SF, 200 SF, 470 SF, 410 SF, 730 SF, 590 SF, 200 SF, 400 SF, 390 SF, 400 SF
+Major Tenants.
+Shoppers Drug Mart, Adidas, Structube , Sephora, RBC Royal Bank
+Property.
+Timberlea Landing
+GLA.
+104,307
+Contact.
+Chris Conrod
+Phone.
+403-444-2854
+Availabilities
+1,270 SF, 6,359 SF
+Major Tenants.
+Scotiabank, Bank of Montreal, TD
+Property.
+Trafalgar Ridge Shopping Centre
+GLA.
+131,250
+Contact.
+Justyn Wood
+Phone.
+416-843-9184
+Availabilities
+N/A
+Major Tenants.
+Subway, Desjardins, Scotiabank, GoodLife Fitness
+Property.
+Trinity Common Brampton
+GLA.
+828,901
+Contact.
+Matthew McDowell
+Phone.
+647- 502-7413
+Availabilities
+N/A
+Major Tenants.
+Metro, SportChek, Mark's, Roots, Bouclair, HomeSense, Guess, Carter's Osh Kosh, Reitmans, Fit 4 Less, La Vie En Rose, Cineplex, Aldo, Tommy Hilfiger, LCBO, Montana's, East Side Mario's, EB Games, Subway, First Choice Haircutters, Harvey's, Bell, Telus, Rogers, Starbucks, TD , Dollarama, Party City, Tip Top, Ashley Furniture, Staples, The Shoe Company, Marshalls, DSW, Winners, Michaels
+Property.
+Trinity Crossing
+GLA.
+371,465
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+5,598 SF
+Major Tenants.
+Play It Again Sports, Sephora, Swiss Chalet, Telus, Bulk Barn, Baskin Robbins, Bar Burrito, LCBO, Michaels, Value Village, Starbucks, The Shoe Company
+Property.
+University Plaza
+GLA.
+185,779
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Subway, LCBO, Canadian Tire, Shoppers Drug Mart, Home Hardware, Freshii, Dollarama, Global Pet Foods, Bulk Barn, Scotiabank, M&M Food Market
+Property.
+Upper James Square
+GLA.
+114,251
+Contact.
+Mackenzie Bigioni
+Phone.
+647-237-4386
+Availabilities
+N/A
+Major Tenants.
+Winners, Mark's, Dollarama, Montana's, Starbucks
+Property.
+Vaudreuil Shopping Centre
+GLA.
+228,273
+Contact.
+Gina Mastromonaco
+Phone.
+514-232-7570
+Availabilities
+N/A
+Major Tenants.
+Harvey's, Staples, Sleep Country Canada, Sherwin-Williams
+Property.
+Victoria Crossing
+GLA.
+76,515
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+N/A
+Major Tenants.
+McDonald's, Kumon Math And Reading Centre, Little Caesar's, Tim Hortons, FreshCo., Rogers, Play It Again Sports
+Property.
+Viewmount Centre
+GLA.
+127,270
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+Best Buy, Montana's, Second Cup , HomeSense, Metro, EB Games
+Property.
+Walker Place
+GLA.
+69,857
+Contact.
+Bryan Kolle
+Phone.
+416-866-8401
+Availabilities
+N/A
+Major Tenants.
+Pet Valu, Shoppers Drug Mart, FreshCo., Subway, Scotiabank
+Property.
+West Hunt Club
+GLA.
+143,815
+Contact.
+Cody Perza
+Phone.
+647-388-9036
+Availabilities
+N/A
+Major Tenants.
+RONA, Starbucks
+Property.
+White Shield Plaza
+GLA.
+148,770
+Contact.
+Ryan Ramlal
+Phone.
+647-253-4960
+Availabilities
+2,026 SF, 1,248 SF, 777 SF
+Major Tenants.
+Lone Tai Supermarket, CIBC, The Beer Store, Harvey's, Dollarama, Kumon Math And Reading Centre
+Property.
+Yonge Eglinton Centre
+GLA.
+1,059,136
+Contact.
+Ethan Yaphe
+Phone.
+416-697-9623
+Availabilities
+615 SF, 1,401 SF, 2,577 SF, 1,887 SF, 1,235 SF, 668 SF, 1,895 SF, 64 SF, 480 SF, 657 SF, 12,980 SF, 1,850 SF, 12,980 SF, 1,367 SF
+Major Tenants.
+Indigo , Cineplex, Winners, GoodLife Fitness, Subway, A&W, TD , Real Fruit Bubble Tea, Tim Hortons, RBC Royal Bank, Metro, LCBO, Sephora, Reitmans, Rexall , Aroma, Carter's Osh Kosh, La Vie En Rose, Laura Secord, Telus
+Property.
+Yonge Sheppard Centre
+GLA.
+305,000
+Contact.
+Lidgeia Blackburn
+Phone.
+416-816-5034
+Availabilities
+886 SF, 913 SF, 1,237 SF, 1,516 SF, 354 SF, 1,398 SF, 2,367 SF, 762 SF, 673 SF, 1,463 SF
+Major Tenants.
+Bank of Montreal, CIBC, The Shoe Company, Real Fruit Bubble Tea, Purdy's Chocolates, Blaze Pizza, Tim Hortons, Reitmans, Winners, A&W, Dollarama, Shoppers Drug Mart, TD , Freshii, Second Cup , Subway, Carter's Osh Kosh, Longo's, Cactus Club Cafe, L.A. Fitness
