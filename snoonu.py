@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from urllib.parse import urlparse, parse_qs, unquote
+import json
 def parseURL(url):
     # Parse the URL
     parsed_url = urlparse(url)
@@ -58,27 +59,28 @@ for group in mobileGroups:
         # newdriver = webdriver.Chrome()
         # newdriver.get(href_value)
         index = index + 1
-        
-        name = driver.find_element(By.TAG_NAME, 'h1').text
+        prepare = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, ".ProductDetail_wrapper__r4szG"))
+        )
+        name = prepare.find_element(By.TAG_NAME, 'h1').text
         print(name)
         # moreBtn = driver.find_element(By.CLASS_NAME, 'Description_showMore__FPUOc')
         # wait.until(EC.element_to_be_clickable(moreBtn))
         # moreBtn.click()
-        description = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".Description_wrapper__klRfB.MainInfo_description__aMDzK"))
-        )
-        description1 = description.find_element(By.TAG_NAME, 'p').text
-        print(description1)
-
-        price = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".AddToCart_header__w7zoG"))
-        )
-        discountPrice = price.find_element(By.TAG_NAME, 'h3').text
-        try:
-            mainPrice = price.find_element(By.TAG_NAME, 'p').text
-        except:
-            mainPrice = discountPrice
-            discountPrice = mainPrice
+        
+        
+        try : 
+            price = prepare.find_element(By.CSS_SELECTOR, ".AddToCart_header__w7zoG")
+            driver.execute_script("arguments[0].scrollIntoView();", price)
+            discountPrice = price.find_element(By.TAG_NAME, 'h3').text
+            try:
+                mainPrice = price.find_element(By.TAG_NAME, 'p').text
+            except:
+                mainPrice = discountPrice
+                discountPrice = None
+        except :
+            mainPrice = None
+            discountPrice = None
         print("price:",mainPrice)
         print("discountPrice:", discountPrice)
         image = []
@@ -91,9 +93,8 @@ for group in mobileGroups:
             # for imageTAG in imageTAGs:
             #     image.append(parseURL(imageTAG.get_attribute("src")))
             #     print(parseURL(imageTAG.get_attribute("src")))
-            imageDivs = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='keen-slider']"))
-            )
+            imageDivs = prepare.find_element(By.CSS_SELECTOR, "div[class='Gallery_wrapper__lb5TV']")
+            driver.execute_script("arguments[0].scrollIntoView();", imageDivs)
             imageTAGs = imageDivs.find_elements(By.CSS_SELECTOR, 'div[data-test-id="slider-main-image"]')
             for imagTAG in imageTAGs:
                 driver.execute_script("arguments[0].scrollIntoView();", imagTAG)
@@ -116,6 +117,15 @@ for group in mobileGroups:
         # )
         # newdriver.quit()
         try :
+            
+            # description = imageDivs.find_element(By.XPATH, "following-sibling::*[1]")
+            description = prepare.find_element(By.CSS_SELECTOR, ".Description_wrapper__klRfB.MainInfo_description__aMDzK")
+            driver.execute_script("arguments[0].scrollIntoView();", description)
+            description1 = description.find_element(By.TAG_NAME, 'p').text
+            print(description1)
+        except :
+            description1 =''
+        try :
             shop = driver.find_element(By.CSS_SELECTOR, "p[class='Typography_p6__xuxGw AddToCart_merchantName__lT1Cu']").text
             print(shop)
         except :
@@ -135,12 +145,16 @@ for group in mobileGroups:
             },
             "Availability" : available,
             "Attribute" : {
-                
+
             }
         }
-
+        productList.append(product)
         driver.close()
         driver.switch_to.window(window_handles[0])
     break
+
 print(index)
-time.sleep(20)
+with open("data.json", "w") as json_file:
+    json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
+
+print("Data written to data.json")

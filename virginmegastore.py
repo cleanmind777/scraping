@@ -1,0 +1,153 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+from urllib.parse import urlparse, parse_qs, unquote
+import json
+def parseURL(url):
+    # Parse the URL
+    parsed_url = urlparse(url)
+
+    # Extract the query parameters
+    query_params = parse_qs(parsed_url.query)
+
+    # Get the 'url' parameter (it's a list, so take the first element)
+    encoded_image_url = query_params.get("url", [""])[0]
+
+    # Decode the URL-encoded image URL
+    decoded_image_url = unquote(encoded_image_url)
+    return decoded_image_url
+# Initialize the WebDriver (e.g., Chrome)
+driver = webdriver.Chrome()
+# Open a webpage
+driver.get("https://www.virginmegastore.qa/en/electronics-accessories/mobiles-accessories/mobile-phones/c/n010301")
+
+# Scroll until no more content is loaded
+wait = WebDriverWait(driver, 10)
+mobileGroup = driver.find_element(By.CSS_SELECTOR,'ul[class="product-list__item-wrapper grid g-row__4"]')
+# print(mobileGroup.tag_name)
+mobiles= mobileGroup.find_elements(By.TAG_NAME,'li')
+index = 0
+productList = []
+for mobile in mobiles:
+    # print('111111111111111111111111111111111111111111111111111111111111111111111')
+    mobile = wait.until(EC.element_to_be_clickable(mobile))
+    driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", mobile)
+    brand = mobile.find_element(By.CLASS_NAME, 'product-list__brand').text
+    print(brand)
+    link = mobile.find_element(By.CLASS_NAME, "product-list__thumb")
+    link.click()
+    # mobile = wait.until(EC.element_to_be_clickable(mobile))
+    # driver.execute_script("arguments[0].click();", mobile)
+    driver.implicitly_wait(5)
+    # window_handles = driver.window_handles
+    # driver.switch_to.window(window_handles[1])
+    # print(href_value)
+    # newdriver = webdriver.Chrome()
+    # newdriver.get(href_value)
+    index = index + 1
+    prepare = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, ".container.page-productDetails"))
+    )
+    title = prepare.find_element(By.CLASS_NAME, 'productDetail__descriptionTitle')
+    driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", title)
+    name = title.text
+    print(name)
+    price = prepare.find_element(By.CLASS_NAME, 'price__value ')
+    driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", price)
+    mainPrice = price.text
+    print(mainPrice)
+    # moreBtn = driver.find_element(By.CLASS_NAME, 'Description_showMore__FPUOc')
+    # wait.until(EC.element_to_be_clickable(moreBtn))
+    # moreBtn.click()
+    
+    
+    # try : 
+    #     price = prepare.find_element(By.CSS_SELECTOR, ".AddToCart_header__w7zoG")
+    #     driver.execute_script("arguments[0].scrollIntoView();", price)
+    #     discountPrice = price.find_element(By.TAG_NAME, 'h3').text
+    #     try:
+    #         mainPrice = price.find_element(By.TAG_NAME, 'p').text
+    #     except:
+    #         mainPrice = discountPrice
+    #         discountPrice = None
+    # except :
+    #     mainPrice = None
+    #     discountPrice = None
+    # print("price:",mainPrice)
+    # print("discountPrice:", discountPrice)
+    # image = []
+    # try : 
+    #     # imageDivs = WebDriverWait(driver, 10).until(
+    #     #     EC.presence_of_element_located((By.CSS_SELECTOR, ".ProductSlider_gallery__oxbnr"))
+    #     # )
+    #     # print(imageDivs.tag_name)
+    #     # imageTAGs = imageDivs.find_elements(By.CSS_SELECTOR, 'img[data-nimg="intrinsic"]')
+    #     # for imageTAG in imageTAGs:
+    #     #     image.append(parseURL(imageTAG.get_attribute("src")))
+    #     #     print(parseURL(imageTAG.get_attribute("src")))
+    #     imageDivs = prepare.find_element(By.CSS_SELECTOR, "div[class='Gallery_wrapper__lb5TV']")
+    #     driver.execute_script("arguments[0].scrollIntoView();", imageDivs)
+    #     imageTAGs = imageDivs.find_elements(By.CSS_SELECTOR, 'div[data-test-id="slider-main-image"]')
+    #     for imagTAG in imageTAGs:
+    #         driver.execute_script("arguments[0].scrollIntoView();", imagTAG)
+    #         image.append(parseURL(imagTAG.find_element(By.TAG_NAME, 'img').get_attribute('src')))
+    #         print(parseURL(imagTAG.find_element(By.TAG_NAME, 'img').get_attribute('src')))
+        
+    #     # image.append(parseURL(imageTAG.get_attribute("src")))
+    #     # print(parseURL(imageTAG.get_attribute("src")))   
+    # except :
+    #     # imageDivs = WebDriverWait(driver, 10).until(
+    #     #     EC.presence_of_element_located((By.CSS_SELECTOR, ".ProductSlider_imageWrapper__YWU9q"))
+    #     # )
+    #     # imageTAG = imageDivs.find_element(By.TAG_NAME, 'img')
+    #     # image.append(parseURL(imageTAG.get_attribute("src")))
+    #     # print(parseURL(imageTAG.get_attribute("src")))   
+    #     print("IMG error")
+    # # imageTAGs = imageDivs.find_elements(By.XPATH, 'data-nimg="intrinsic')
+    # # imageTAGs = WebDriverWait(driver, 10).until(
+    # #     EC.presence_of_element_located((By.CSS_SELECTOR, 'img[data-nimg="intrinsic"]'))
+    # # )
+    # # newdriver.quit()
+    # try :
+        
+    #     # description = imageDivs.find_element(By.XPATH, "following-sibling::*[1]")
+    #     description = prepare.find_element(By.CSS_SELECTOR, ".Description_wrapper__klRfB.MainInfo_description__aMDzK")
+    #     driver.execute_script("arguments[0].scrollIntoView();", description)
+    #     description1 = description.find_element(By.TAG_NAME, 'p').text
+    #     print(description1)
+    # except :
+    #     description1 =''
+    # try :
+    #     shop = driver.find_element(By.CSS_SELECTOR, "p[class='Typography_p6__xuxGw AddToCart_merchantName__lT1Cu']").text
+    #     print(shop)
+    # except :
+    #     print("Shop Error")
+    # try :
+    #     availableDiv = driver.find_element(By.CSS_SELECTOR, 'p[class="Typography_p12__ERAzo Tag_tag__7Yjwu Tag_gray__b7ASa"]')
+    #     available = True
+    # except :
+    #     available = False
+    # product = {
+    #     'Name' : name,
+    #     'Description' : description1,
+    #     'Images' : image,
+    #     'Prices' : {
+    #         'main' : mainPrice,
+    #         'discount' : discountPrice
+    #     },
+    #     "Availability" : available,
+    #     "Attribute" : {
+
+    #     }
+    # }
+    # productList.append(product)
+
+    break
+
+print(index)
+with open("data.json", "w") as json_file:
+    json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
+
+print("Data written to data.json")
