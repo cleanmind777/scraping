@@ -58,10 +58,20 @@ for mobile in mobiles:
     driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", price)
     mainPrice = price.text
     print(mainPrice)
-    # moreBtn = driver.find_element(By.CLASS_NAME, 'Description_showMore__FPUOc')
-    # wait.until(EC.element_to_be_clickable(moreBtn))
-    # moreBtn.click()
-    
+    detail = driver.find_element(By.CSS_SELECTOR, '.pdp-tabs.container.js-pdpTabs.ui-tabs.ui-corner-all.ui-widget.ui-widget-content')
+
+    descriptionTag = detail.find_element(By.CSS_SELECTOR, '.tabContent__paragraph.tabsDescription__longDescription.js-details-long-description')
+    descriptionBtn = descriptionTag.find_element(By.CSS_SELECTOR, '.tabContent__viewMore.js-view-full-description.js-truncate.show')
+    driver.execute_script("arguments[0].scrollIntoView();", descriptionBtn)
+    wait.until(EC.element_to_be_clickable(descriptionBtn))
+    driver.execute_script("arguments[0].click();", descriptionBtn)
+    description = descriptionTag.find_element(By.CSS_SELECTOR, '.tabContent__paragraph.tabsDescription__longDescription__inner')
+    elementDescrition = description.find_elements(By.TAG_NAME,'p')
+    descriptionResult = ''
+    for p in elementDescrition:
+        driver.execute_script("arguments[0].scrollIntoView();", p)
+        descriptionResult = descriptionResult +'\n'+ p.text
+    print(descriptionResult)    
     
     # try : 
     #     price = prepare.find_element(By.CSS_SELECTOR, ".AddToCart_header__w7zoG")
