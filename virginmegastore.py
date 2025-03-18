@@ -31,11 +31,13 @@ mobiles= mobileGroup.find_elements(By.TAG_NAME,'li')
 index = 0
 productList = []
 for mobile in mobiles:
+    attributes = {}
     # print('111111111111111111111111111111111111111111111111111111111111111111111')
     mobile = wait.until(EC.element_to_be_clickable(mobile))
     driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", mobile)
     brand = mobile.find_element(By.CLASS_NAME, 'product-list__brand').text
     print(brand)
+    attributes['Brand']=brand
     link = mobile.find_element(By.CLASS_NAME, "product-list__thumb")
     new_url = link.get_attribute("href")  # Get the URL from the element (e.g., <a> tag)
     script = """
@@ -96,11 +98,13 @@ for mobile in mobiles:
     wait.until(EC.element_to_be_clickable(attributeBtn))
     driver.execute_script("arguments[0].click();", attributeBtn)
     elementAttribute = attributeTag.find_elements(By.CLASS_NAME, 'tabsSpecification__table__row')
-    attributes = {}
+    
     i = 0
     for element in elementAttribute:
-        driver.execute_script("arguments[0].scrollIntoView();", element)
-        key = element.find_element(By.CSS_SELECTOR, '.tabsSpecification__table__cell.tabsSpecification__table__cell-head')
+        print(i)
+        i = i + 1
+        driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", element)
+        key = element.find_element(By.CSS_SELECTOR, '.tabsSpecification__table__cell-head')
         keytext = key.text
         driver.implicitly_wait(5)
         # value = element.find_element(By.XPATH, "//*[@class='tabsSpecification__table__cell']")
@@ -124,7 +128,18 @@ for mobile in mobiles:
     print(image)
     driver.close()
     driver.switch_to.window(driver.window_handles[0])
-    productList.append()
+    product = {
+        'Name' : name,
+        'Description' : descriptionResult,
+        'Images' : image,
+        'Prices' : {
+            'main' : mainPrice,
+            'discount' : None
+        },
+        "Availability" : None,
+        "Attribute" : attributes
+    }
+    productList.append(product)
     # try : 
     #     price = prepare.find_element(By.CSS_SELECTOR, ".AddToCart_header__w7zoG")
     #     driver.execute_script("arguments[0].scrollIntoView();", price)
