@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
-from urllib.parse import urlparse, parse_qs, unquote
+import time, re
+from urllib.parse import urlparse, parse_qs, unquote, urlunparse
 import json
 def parseURL(url):
     # Parse the URL
@@ -71,8 +71,41 @@ for mobile in mobiles:
     for p in elementDescrition:
         driver.execute_script("arguments[0].scrollIntoView();", p)
         descriptionResult = descriptionResult +'\n'+ p.text
-    print(descriptionResult)    
-    
+    print(descriptionResult)
+    print("122222222222222222222222222222222222222222222222222222")
+
+    attributeTag = detail.find_element(By.CSS_SELECTOR, '.tabContent.tabContent__specification')
+    attributeBtn = attributeTag.find_element(By.CSS_SELECTOR, '.tabContent__viewMore.js-truncate.show')
+    driver.execute_script("arguments[0].scrollIntoView();", attributeBtn)
+    wait.until(EC.element_to_be_clickable(attributeBtn))
+    driver.execute_script("arguments[0].click();", attributeBtn)
+    elementAttribute = attributeTag.find_elements(By.CLASS_NAME, 'tabsSpecification__table__row')
+    attributes = {}
+    i = 0
+    for element in elementAttribute:
+        driver.execute_script("arguments[0].scrollIntoView();", element)
+        key = element.find_element(By.CSS_SELECTOR, '.tabsSpecification__table__cell.tabsSpecification__table__cell-head')
+        keytext = key.text
+        driver.implicitly_wait(5)
+        # value = element.find_element(By.XPATH, "//*[@class='tabsSpecification__table__cell']")
+        value = key.find_element(By.XPATH, "following-sibling::div[1]")
+        driver.implicitly_wait(5)
+        driver.execute_script("arguments[0].scrollIntoView();", value)
+        driver.implicitly_wait(5)
+        attributes[keytext] = value.text
+    print(attributes)
+    image = []
+    imagtags = prepare.find_element(By.CLASS_NAME, 'pdp_image-carousel.swiper-container.swiper-container-initialized.swiper-container-horizontal')
+    driver.execute_script("arguments[0].scrollIntoView();", imagtags)
+    images = imagtags.find_elements(By.CSS_SELECTOR, '.swiper-slide')
+    for imageElement in images:
+        driver.execute_script("arguments[0].scrollIntoView();", imageElement)
+        imagetag = imageElement.find_element(By.CSS_SELECTOR,'.pdp_image-carousel-image.js-zoomImage.c-pointer')
+        # preURL = re.search(r"url\('([^']+)'\)", imagetag.get_attribute('style'))
+        # preURL = preURL.group(1)
+        url = f"https://www.virginmegastore.qa/{imagetag.get_attribute('style')[18:-3]}"
+        image.append(url)
+    print(image)
     # try : 
     #     price = prepare.find_element(By.CSS_SELECTOR, ".AddToCart_header__w7zoG")
     #     driver.execute_script("arguments[0].scrollIntoView();", price)
