@@ -33,11 +33,19 @@ actions = ActionChains(driver)
 actions.move_by_offset(1, 1).click().perform()
 # Scroll until no more content is loaded
 
+
 mainboard = driver.find_element(By.ID,'amasty-shopby-product-list')
 # print(mobileGroup.tag_name)
 mobiles= mainboard.find_elements(By.CSS_SELECTOR,'.products.list.items.product-items')
 index = 0
 productList = []
+
+prevtoolbar = mainboard.find_element(By.CSS_SELECTOR,'products.wrapper.list.products-list')
+driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", prevtoolbar)
+toolbar = prevtoolbar.find_element(By.XPATH, "following-sibling::div[class=['toolbar toolbar-products']]")
+driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", toolbar)
+nextBtn = 1
+
 for mobile in mobiles:
     attributes = {}
     # print('111111111111111111111111111111111111111111111111111111111111111111111')
@@ -172,7 +180,6 @@ for mobile in mobiles:
     #     "Attribute" : attributes
     # }
     # productList.append(product)
-    break
 print(index)
 with open("data.json", "w") as json_file:
     json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
