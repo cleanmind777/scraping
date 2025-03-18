@@ -146,6 +146,8 @@ while next_element is not None:
         }
         productList.append(product)
     next_element = driver.find_element(By.XPATH, "//*[@rel='next']")
+    driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", next_element)
+    next_element.click()
 print(index)
 with open("vir.json", "w") as json_file:
     json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
