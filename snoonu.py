@@ -146,7 +146,8 @@ for group in mobileGroups:
             "Availability" : available,
             "Attribute" : {
 
-            }
+            },
+            'shop' : shop,
         }
         productList.append(product)
         driver.close()
