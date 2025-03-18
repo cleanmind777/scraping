@@ -68,7 +68,7 @@ while next_element is not None:
         # newdriver = webdriver.Chrome()
         # newdriver.get(href_value)
         index = index + 1
-        prepare = WebDriverWait(driver, 10).until(
+        prepare = WebDriverWait(driver, 100).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, ".container.page-productDetails"))
         )
         title = prepare.find_element(By.CLASS_NAME, 'productDetail__descriptionTitle')
