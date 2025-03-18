@@ -53,24 +53,14 @@ while next_element is not None:
             window.open(arguments[1], '_blank');
         """
         driver.execute_script(script, link, new_url)
-
-        # Click the element to trigger the new tab
+        driver.implicitly_wait(100)
         link.click()
 
-        # Switch to the new tab
         driver.switch_to.window(driver.window_handles[1])
-        # mobile = wait.until(EC.element_to_be_clickable(mobile))
-        # driver.execute_script("arguments[0].click();", mobile)
-        driver.implicitly_wait(5)
-        # window_handles = driver.window_handles
-        # driver.switch_to.window(window_handles[1])
-        # print(href_value)
-        # newdriver = webdriver.Chrome()
-        # newdriver.get(href_value)
         index = index + 1
-        prepare = WebDriverWait(driver, 100).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".container.page-productDetails"))
-        )
+        driver.implicitly_wait(100)
+        prepare = driver.find_element(By.CSS_SELECTOR, ".container.page-productDetails")
+        driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", prepare)
         title = prepare.find_element(By.CLASS_NAME, 'productDetail__descriptionTitle')
         driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", title)
         name = title.text
@@ -146,6 +136,9 @@ while next_element is not None:
     next_element = driver.find_element(By.XPATH, "//*[@rel='next']")
     driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", next_element)
     next_element.click()
+    driver.get(next_element.get_attribute('href'))
+    driver.implicitly_wait(5)
+
 print(index)
 with open("vir.json", "w") as json_file:
     json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
