@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
 import time
 from urllib.parse import urlparse, parse_qs, unquote
 import json
@@ -153,7 +154,6 @@ while True:
         with open("snoonu.json", "w") as json_file:
             json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
         print(index)
-
     if x == 8:
         break
     input_element = driver.find_element(By.NAME, "maxPrice")
@@ -161,11 +161,12 @@ while True:
     # Clear the existing value
     input_element.clear()
         # Input a new value
+    input_element.send_keys("9")
     input_element.send_keys(f"{x}")
+    input_element.send_keys(Keys.HOME)  # Move cursor to the start
+    input_element.send_keys(Keys.DELETE)
     print(x)
-    time.sleep(3)
-    # except :
-    #     break
+    time.sleep(5)
 
 time.sleep(3)
 
