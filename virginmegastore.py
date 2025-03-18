@@ -28,8 +28,6 @@ wait = WebDriverWait(driver, 10)
 
 next_element = driver.find_element(By.XPATH, "//*[@rel='next']")
 while next_element is not None:
-    driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", next_element)
-    next_element.click()
     mobileGroup = driver.find_element(By.CSS_SELECTOR,'ul[class="product-list__item-wrapper grid g-row__4"]')
     # print(mobileGroup.tag_name)
     mobiles= mobileGroup.find_elements(By.TAG_NAME,'li')
