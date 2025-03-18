@@ -37,7 +37,23 @@ for mobile in mobiles:
     brand = mobile.find_element(By.CLASS_NAME, 'product-list__brand').text
     print(brand)
     link = mobile.find_element(By.CLASS_NAME, "product-list__thumb")
+    new_url = link.get_attribute("href")  # Get the URL from the element (e.g., <a> tag)
+    script = """
+        // Prevent the default click behavior
+        arguments[0].addEventListener('click', function(event) {
+            event.preventDefault();
+        });
+
+        // Open the new URL in a new tab
+        window.open(arguments[1], '_blank');
+    """
+    driver.execute_script(script, link, new_url)
+
+    # Click the element to trigger the new tab
     link.click()
+
+    # Switch to the new tab
+    driver.switch_to.window(driver.window_handles[1])
     # mobile = wait.until(EC.element_to_be_clickable(mobile))
     # driver.execute_script("arguments[0].click();", mobile)
     driver.implicitly_wait(5)
@@ -106,6 +122,9 @@ for mobile in mobiles:
         url = f"https://www.virginmegastore.qa/{imagetag.get_attribute('style')[18:-3]}"
         image.append(url)
     print(image)
+    driver.close()
+    driver.switch_to.window(driver.window_handles[0])
+    productList.append()
     # try : 
     #     price = prepare.find_element(By.CSS_SELECTOR, ".AddToCart_header__w7zoG")
     #     driver.execute_script("arguments[0].scrollIntoView();", price)
@@ -186,9 +205,6 @@ for mobile in mobiles:
     #     }
     # }
     # productList.append(product)
-
-    break
-
 print(index)
 with open("data.json", "w") as json_file:
     json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
