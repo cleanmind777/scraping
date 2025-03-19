@@ -21,12 +21,12 @@ def parseURL(url):
 # Initialize the WebDriver (e.g., Chrome)
 driver = webdriver.Chrome()
 # Open a webpage
-driver.get("https://www.virginmegastore.qa/en/electronics-accessories/mobiles-accessories/mobile-phones/c/n010301")
+driver.get("https://www.virginmegastore.qa/en/electronics-accessories/mobiles-accessories/mobile-phones/c/n010301?page=1")
 
 # Scroll until no more content is loaded
 wait = WebDriverWait(driver, 100)
 
-next_element = driver.find_element(By.XPATH, "//*[@rel='next']")
+next_element = 1
 while next_element is not None:
     mobileGroup = driver.find_element(By.CSS_SELECTOR,'ul[class="product-list__item-wrapper grid g-row__4"]')
     # print(mobileGroup.tag_name)
@@ -77,7 +77,10 @@ while next_element is not None:
         wait.until(EC.element_to_be_clickable(descriptionBtn))
         driver.execute_script("arguments[0].click();", descriptionBtn)
         description = descriptionTag.find_element(By.CSS_SELECTOR, '.tabContent__paragraph.tabsDescription__longDescription__inner')
-        elementDescrition = description.find_elements(By.TAG_NAME,'p')
+        try : 
+            elementDescrition = description.find_elements(By.TAG_NAME,'p')
+        except :
+            elementDescrition = description.find_elements(By.TAG_NAME,'li')
         descriptionResult = ''
         for p in elementDescrition:
             driver.execute_script("arguments[0].scrollIntoView();", p)

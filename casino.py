@@ -7,7 +7,19 @@ from urllib.parse import urlparse, parse_qs, unquote, urlunparse
 import json
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+from PIL import Image
+from io import BytesIO
+
+def capture_screenshot():
+    driver = driver.get_webdriver_instance()
+    driver.set_window_size(500, 325) 
+    canvas_element = driver.find_element_by_xpath("//canvas")
+    result = canvas_element.screenshot_as_png
+    with open('save.png', 'wb') as f:
+        f.write(result)
+
 driver = webdriver.Chrome()
+
 # Open a webpage
 driver.get("https://roobet.com/casino/game/evolution:craps")
 
@@ -40,15 +52,7 @@ while True:
     except :
         continue
 
-# while True:
-#     time.sleep(5)
-#     try :
-#         viewBtn = driver.find_element(By.XPATH, "//button[@data-role='video-button']")
-#         driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", viewBtn)
-#         viewBtn.click()
-#         break
-#     except :
-#         continue
+
 while True:
     time.sleep(5)
     try :
@@ -60,4 +64,38 @@ while True:
         print("yet")
         continue
 print(link)
+driver.execute_script(f"window.open('{link}', '_blank');")
+
+# Switch to the new tab
+# Get the list of all window handles
+window_handles = driver.window_handles
+
+# Switch to the last handle (the new tab)
+driver.switch_to.window(window_handles[-1])
+while True:
+    time.sleep(5)
+    try :
+        videoTag = driver.find_element(By.TAG_NAME, "iframe")
+        driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", videoTag)
+        link = videoTag.get_attribute('src')
+        break
+    except :
+        print("yet")
+        continue
+driver.switch_to.frame(videoTag)
+driver.set_window_size(800,600)
+png = driver.get_screenshot_as_png()
+im = Image.open(BytesIO(png)) # uses PIL library to open image in memory
+
+im = im.crop((0, 0, 100, 100)) # defines crop points
+im.save('screenshot.png')
+while True:
+    time.sleep(5)
+    try :
+        viewBtn = driver.find_element(By.XPATH, "//button[@data-role='video-button']")
+        driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", viewBtn)
+        viewBtn.click()
+        break
+    except :
+        continue
 time.sleep(15)

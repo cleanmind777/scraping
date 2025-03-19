@@ -1,0 +1,13 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pu.js",
+  "scripts": {
+    "start": "node pu.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "puppeteer": "^21.0.0"
+  }
+}
