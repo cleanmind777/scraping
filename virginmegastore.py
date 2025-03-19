@@ -59,7 +59,13 @@ while next_element is not None:
         driver.switch_to.window(driver.window_handles[1])
         index = index + 1
         driver.implicitly_wait(300)
-        prepare = driver.find_element(By.CSS_SELECTOR, ".container.page-productDetails")
+        while True:
+            time.sleep(3)
+            try :
+                prepare = driver.find_element(By.CSS_SELECTOR, ".container.page-productDetails")
+                break
+            except :
+                continue
         driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", prepare)
         title = prepare.find_element(By.CLASS_NAME, 'productDetail__descriptionTitle')
         driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", title)
@@ -75,40 +81,87 @@ while next_element is not None:
         descriptionBtn = descriptionTag.find_element(By.CSS_SELECTOR, '.tabContent__viewMore.js-view-full-description.js-truncate.show')
         driver.execute_script("arguments[0].scrollIntoView();", descriptionBtn)
         wait.until(EC.element_to_be_clickable(descriptionBtn))
+        time.sleep(3)
         driver.execute_script("arguments[0].click();", descriptionBtn)
+        time.sleep(3)
         description = descriptionTag.find_element(By.CSS_SELECTOR, '.tabContent__paragraph.tabsDescription__longDescription__inner')
-        try : 
-            elementDescrition = description.find_elements(By.TAG_NAME,'p')
-        except :
-            elementDescrition = description.find_elements(By.TAG_NAME,'li')
-        descriptionResult = ''
-        for p in elementDescrition:
-            driver.execute_script("arguments[0].scrollIntoView();", p)
-            descriptionResult = descriptionResult +'\n'+ p.text
+        print(description.text)
+        # p_tags = WebDriverWait(description, 30).until(
+        #         EC.presence_of_all_elements_located((By.TAG_NAME, "p"))
+        # )
+        # if p_tags:
+        #     elementDescrition = p_tags
+        # else:
+        #     print("No <p> tags found within the special tag. Searching for <li> tags...")
+            
+        #     # Wait for <li> tags to appear within the special tag
+        #     li_tags = WebDriverWait(description, 30).until(
+        #         EC.presence_of_all_elements_located((By.TAG_NAME, "li"))
+        #     )
+            
+        #     if li_tags:
+        #         elementDescrition = li_tags
+        #     else:
+        #         print("No <li> tags found within the special tag.")
+
+        # try : 
+        #     # elementDescrition = description.find_elements(By.TAG_NAME,'p')
+            
+        #     elementDescrition = description.find_elements(By.TAG_NAME,'p')
+        # except :
+        #     elementDescrition = description.find_elements(By.TAG_NAME,'li')
+        descriptionResult = description.text
+        # for p in elementDescrition:
+        #     driver.execute_script("arguments[0].scrollIntoView();", p)
+        #     descriptionResult = descriptionResult +'\n'+ p.text
         print(descriptionResult)
         print("122222222222222222222222222222222222222222222222222222")
-
-        attributeTag = detail.find_element(By.CSS_SELECTOR, '.tabContent.tabContent__specification')
-        attributeBtn = attributeTag.find_element(By.CSS_SELECTOR, '.tabContent__viewMore.js-truncate.show')
-        driver.execute_script("arguments[0].scrollIntoView();", attributeBtn)
-        wait.until(EC.element_to_be_clickable(attributeBtn))
-        driver.execute_script("arguments[0].click();", attributeBtn)
-        elementAttribute = attributeTag.find_elements(By.CLASS_NAME, 'tabsSpecification__table__row')
-        
-        i = 0
-        for element in elementAttribute:
-            print(i)
-            i = i + 1
-            driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", element)
-            key = element.find_element(By.CSS_SELECTOR, '.tabsSpecification__table__cell-head')
-            keytext = key.text
-            driver.implicitly_wait(5)
-            # value = element.find_element(By.XPATH, "//*[@class='tabsSpecification__table__cell']")
-            value = key.find_element(By.XPATH, "following-sibling::div[1]")
-            driver.implicitly_wait(5)
-            driver.execute_script("arguments[0].scrollIntoView();", value)
-            driver.implicitly_wait(5)
-            attributes[keytext] = value.text
+        try : 
+            attributeTag = WebDriverWait(detail, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, '.pdp-tabs__tab.details-tab.ui-tabs-panel.ui-corner-bottom.ui-widget-content'))
+            )
+            attributeTag = detail.find_element(By.CSS_SELECTOR, '.pdp-tabs__tab.details-tab.ui-tabs-panel.ui-corner-bottom.ui-widget-content')
+            attributeBtn = attributeTag.find_element(By.CSS_SELECTOR, '.tabContent__viewMore.js-truncate.show')
+            driver.execute_script("arguments[0].scrollIntoView();", attributeBtn)
+            wait.until(EC.element_to_be_clickable(attributeBtn))
+            driver.execute_script("arguments[0].click();", attributeBtn)
+            elementAttribute = attributeTag.find_elements(By.CLASS_NAME, 'tabsSpecification__table__row')
+            i = 0
+            for element in elementAttribute:
+                print(i)
+                i = i + 1
+                driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", element)
+                key = element.find_element(By.CSS_SELECTOR, '.tabsSpecification__table__cell-head')
+                keytext = key.text
+                driver.implicitly_wait(5)
+                # value = element.find_element(By.XPATH, "//*[@class='tabsSpecification__table__cell']")
+                value = key.find_element(By.XPATH, "following-sibling::div[1]")
+                driver.implicitly_wait(5)
+                driver.execute_script("arguments[0].scrollIntoView();", value)
+                driver.implicitly_wait(5)
+                attributes[keytext] = value.text
+        except :
+            print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+            try : 
+                print(driver.page_source)
+                elements = detail.find_elements(By.TAG_NAME,'tr')
+                print("//////////////////////////////////////////////////////")
+                for element in elements:
+                    print(i)
+                    i = i + 1
+                    driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", element)
+                    key = element.find_element(By.TAG_NAME,'th')
+                    keytext = key.text
+                    driver.implicitly_wait(5)
+                    # value = element.find_element(By.XPATH, "//*[@class='tabsSpecification__table__cell']")
+                    value = key.find_element(By.XPATH, "following-sibling::td[1]")
+                    driver.implicitly_wait(5)
+                    driver.execute_script("arguments[0].scrollIntoView();", value)
+                    driver.implicitly_wait(5)
+                    attributes[keytext] = value.text
+            except :
+                attributes ={None}
+                print(attributes)
         print(attributes)
         image = []
         imagtags = prepare.find_element(By.CLASS_NAME, 'pdp_image-carousel.swiper-container.swiper-container-initialized.swiper-container-horizontal')
