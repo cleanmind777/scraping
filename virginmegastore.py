@@ -24,7 +24,7 @@ driver = webdriver.Chrome()
 driver.get("https://www.virginmegastore.qa/en/electronics-accessories/mobiles-accessories/mobile-phones/c/n010301")
 
 # Scroll until no more content is loaded
-wait = WebDriverWait(driver, 10)
+wait = WebDriverWait(driver, 100)
 
 next_element = driver.find_element(By.XPATH, "//*[@rel='next']")
 while next_element is not None:
@@ -58,7 +58,7 @@ while next_element is not None:
 
         driver.switch_to.window(driver.window_handles[1])
         index = index + 1
-        driver.implicitly_wait(100)
+        driver.implicitly_wait(300)
         prepare = driver.find_element(By.CSS_SELECTOR, ".container.page-productDetails")
         driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", prepare)
         title = prepare.find_element(By.CLASS_NAME, 'productDetail__descriptionTitle')
@@ -133,10 +133,10 @@ while next_element is not None:
             "Attribute" : attributes
         }
         productList.append(product)
-    next_element = driver.find_element(By.XPATH, "//*[@rel='next']")
-    driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", next_element)
+        with open("vir.json", "w") as json_file:
+            json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
     next_element.click()
-    driver.get(next_element.get_attribute('href'))
+    
     driver.implicitly_wait(5)
 
 print(index)
