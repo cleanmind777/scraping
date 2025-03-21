@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Samsung Galaxy S24 FE 5G 256GB - Gray",
+        "Description": "Product Overview: The Samsung Galaxy S24 FE 5G delivers flagship-like performance with a stylish design, powerful features, and seamless connectivity. Key Features: \u2023 Enhanced Cooling System for sustained high performance. \u2023 AI-Powered Smart Features for optimized battery and user experience. \u2023 Durable & Sleek Design with a modern finish. Specifications: \u2023 Storage: 256GB \u2023 RAM: 8GB \u2023 Display: 6.7 inches \u2023 Resolution: 2340 x 1080 pixels \u2023 Processor: Samsung Exynos 2400e \u2023 Rear Camera: 50MP \u2023 Front Camera: 10MP \u2023 Battery: 4,700 mAh \u2023 Operating System: Android 14 \u2023 Connectivity: 5G, Wi-Fi 6, Bluetooth 5.3 \u2023 Dimensions: 158.0 x 76.5 x 8.2 mm; 209g \u2023 Port: USB-C",
+        "Images": [
+            "https://images.snoonu.com/brand_product/2024-12/fb99c265-916d-4e93-9380-fa58a8cf9795_output.png",
+            "https://images.snoonu.com/brand_product/2024-12/5cb10913-3a53-4db6-8519-104c5d407551_output.png",
+            "https://images.snoonu.com/brand_product/2024-12/bc3d048e-7bc9-4931-ae39-d5d1f9f31ff0_output.png",
+            "https://images.snoonu.com/brand_product/2024-12/5d9d5917-a1c6-4811-a90d-382f469b784f_output.png",
+            "https://images.snoonu.com/brand_product/2024-12/aab64259-cd74-4ab1-b30c-a8593f380915_output.png"
+        ],
+        "Prices": {
+            "main": "2,399 QR",
+            "discount": "1,999 QR"
+        },
+        "Availability": true,
+        "Attribute": {},
+        "shop": "By Snoonu"
+    }
+]

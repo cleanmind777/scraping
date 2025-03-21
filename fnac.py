@@ -157,7 +157,10 @@ try :
                 "Availability" : None,
                 "Attribute" : attributes
             }
+            
             productList.append(product)
+            with open("fnac.json", "w") as json_file:
+                json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
             driver.close()
             driver.switch_to.window(driver.window_handles[0])
             time.sleep(2)
@@ -287,8 +290,10 @@ except :
         driver.close()
         driver.switch_to.window(driver.window_handles[0])
         time.sleep(2)
+        with open("fnac.json", "w") as json_file:
+            json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
 print(index)
-with open("data.json", "w") as json_file:
+with open("fnac.json", "w") as json_file:
     json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
 
-print("Data written to data.json")
+print("Data written to fnac.json")

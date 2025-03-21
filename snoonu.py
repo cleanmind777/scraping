@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 from urllib.parse import urlparse, parse_qs, unquote
 import json
+import math
 def parseURL(url):
     # Parse the URL
     parsed_url = urlparse(url)
@@ -38,8 +39,19 @@ time.sleep(5)
 index = 0
 productList = []
 # Scroll until no more content is loaded
-x = 7000
+x =7000
+input_element = driver.find_element(By.NAME, "maxPrice")
+driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", input_element)
+    # Clear the existing value
+input_element.clear()
+        # Input a new value
+input_element.send_keys("9")
+input_element.send_keys(f"{x}")
+input_element.send_keys(Keys.HOME)  # Move cursor to the start
+input_element.send_keys(Keys.DELETE)
+time.sleep(3)
 while True:
+    print("-----------------------------------------------------------------------------------------------------------------------------")
     last_height = driver.execute_script("return document.body.scrollHeight")
     wait = WebDriverWait(driver, 10)
     while True:
@@ -75,7 +87,7 @@ while True:
         driver.switch_to.window(window_handles[1])
 
         index = index + 1
-        prepare = WebDriverWait(driver, 10).until(
+        prepare = WebDriverWait(driver, 100).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, ".ProductDetail_wrapper__r4szG"))
         )
         name = prepare.find_element(By.TAG_NAME, 'h1').text
@@ -150,12 +162,13 @@ while True:
         else :
             x = discountPrice
         x = x.replace(",", "").replace("QR", "").strip()
-        x = int(x)
+        x = float(x)
         with open("snoonu.json", "w") as json_file:
             json.dump(productList, json_file, indent=4)  # `indent=4` for pretty-printing
         print(index)
-    if x == 8:
+    if x <= 8:
         break
+    x =  math.ceil(x)
     input_element = driver.find_element(By.NAME, "maxPrice")
     driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", input_element)
     # Clear the existing value
@@ -167,6 +180,12 @@ while True:
     input_element.send_keys(Keys.DELETE)
     print(x)
     time.sleep(5)
+    print('||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||')
+    product = {
+        "........":"......................................................................",
+        'x':x,
+    }
+    productList.append(product)
 
 time.sleep(3)
 

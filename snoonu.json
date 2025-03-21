@@ -1,20 +1,62 @@
 [
     {
-        "Name": "Samsung Galaxy S24 FE 5G 256GB - Gray",
-        "Description": "Product Overview: The Samsung Galaxy S24 FE 5G delivers flagship-like performance with a stylish design, powerful features, and seamless connectivity. Key Features: \u2023 Enhanced Cooling System for sustained high performance. \u2023 AI-Powered Smart Features for optimized battery and user experience. \u2023 Durable & Sleek Design with a modern finish. Specifications: \u2023 Storage: 256GB \u2023 RAM: 8GB \u2023 Display: 6.7 inches \u2023 Resolution: 2340 x 1080 pixels \u2023 Processor: Samsung Exynos 2400e \u2023 Rear Camera: 50MP \u2023 Front Camera: 10MP \u2023 Battery: 4,700 mAh \u2023 Operating System: Android 14 \u2023 Connectivity: 5G, Wi-Fi 6, Bluetooth 5.3 \u2023 Dimensions: 158.0 x 76.5 x 8.2 mm; 209g \u2023 Port: USB-C",
+        "Name": "Apple Iphone 16 Pro Max 1Tb",
+        "Description": "Built For Apple Intelligence. Featuring A Stunning Titanium Design. Camera Control. 4K 120 Fps Dolby Vision. And A18 Pro Chip.",
         "Images": [
-            "https://images.snoonu.com/brand_product/2024-12/fb99c265-916d-4e93-9380-fa58a8cf9795_output.png",
-            "https://images.snoonu.com/brand_product/2024-12/5cb10913-3a53-4db6-8519-104c5d407551_output.png",
-            "https://images.snoonu.com/brand_product/2024-12/bc3d048e-7bc9-4931-ae39-d5d1f9f31ff0_output.png",
-            "https://images.snoonu.com/brand_product/2024-12/5d9d5917-a1c6-4811-a90d-382f469b784f_output.png",
-            "https://images.snoonu.com/brand_product/2024-12/aab64259-cd74-4ab1-b30c-a8593f380915_output.png"
+            "https://images.snoonu.com/images/dddf2f60-257d-41dc-ac01-b33dfa2c644c_195949924347.jpg"
         ],
         "Prices": {
-            "main": "2,399 QR",
-            "discount": "1,999 QR"
+            "main": "6,749 QR",
+            "discount": null
         },
-        "Availability": true,
+        "Availability": false,
         "Attribute": {},
-        "shop": "By Snoonu"
+        "shop": "Alif Bookstore for Electronics"
+    },
+    {
+        "Name": "Iphone 16 Pro Max 1Tb Black Titanium-Mywq3Ae/A",
+        "Description": "The iPhone 16 Pro Max in Black Titanium represents Apple's most advanced smartphone, featuring a massive 1TB storage capacity, premium titanium build, and cutting-edge camera system. The device showcases a stunning 6.7-inch Super Retina XDR display with ProMotion technology and is powered by Apple's latest A-series chip. Key features: \u2022 1TB storage capacity for unlimited content \u2022 6.7-inch Super Retina XDR display with ProMotion \u2022 Pro camera system with advanced computational photography \u2022 Premium Black Titanium design with Ceramic Shield \u2022 Latest A-series chip for unprecedented performance \u2022 5G capability with Wi-Fi 6E support \u2022 All-day battery life with fast charging The device features the Dynamic Island interface for seamless notifications and interactions. The advanced camera system includes multiple lenses and LiDAR Scanner for professional-quality photos and videos. The phone supports MagSafe charging and maintains an IP68 rating for water and dust resistance. Package includes USB-C charging cable and documentation. Power adapter sold separately as part of Apple's environmental initiative.",
+        "Images": [
+            "https://images.snoonu.com/brand_product/2024-11/220a5b61-6764-4cdd-81d0-72f54e89606a_output.png"
+        ],
+        "Prices": {
+            "main": "6,199 QR",
+            "discount": null
+        },
+        "Availability": false,
+        "Attribute": {},
+        "shop": "Technical Care Center"
+    },
+    {
+        "Name": "Apple Iphone 16 Pro Max 1Tb Natural Titanium",
+        "Description": "Product Overview: The iPhone 16 Pro Max is a premium flagship device with unparalleled storage, cutting-edge performance, and an elegant titanium design. Key Features: \u2023 Natural Titanium Build: Durable and lightweight. \u2023 Ideal for professionals with high storage needs. \u2023 ProMotion Display Technical Specifications: \u2023 Storage: 1TB \u2023 RAM: 8GB \u2023 Display: 6.3-inch Super Retina XDR OLED \u2023 Resolution: 2622 x 1206-pixel \u2023 Processor: A18 Bionic chip with 6-core CPU and 16-core Neural Engine \u2023 Rear Camera: Triple 48MP (Wide) + 12MP (Ultra-Wide) \u2023 Front Camera: 12MP TrueDepth \u2023 Battery: Wi-Fi 802.11 a/b/g/n/ac/6e/7, dual-band, hotspot \u2023 Operating System: iOS 18",
+        "Images": [
+            "https://images.snoonu.com/brand_product/2024-11/f24283a4-94ec-4f44-9a30-5435870aae03_output.png",
+            "https://images.snoonu.com/brand_product/2024-11/0abdcca4-af9b-4bd2-9010-8c149d66d175_output.png",
+            "https://images.snoonu.com/brand_product/2024-11/695dacd9-3c9d-4e3b-aa4f-7710b19a366a_output.png",
+            "https://images.snoonu.com/brand_product/2024-11/85d24dd4-b823-4a17-9f9e-f556f6997918_output.png",
+            "https://images.snoonu.com/brand_product/2024-11/efc134fe-ef52-4af9-8add-a27a41e841d4_output.png"
+        ],
+        "Prices": {
+            "main": "6,399 QR",
+            "discount": "6,099 QR"
+        },
+        "Availability": false,
+        "Attribute": {},
+        "shop": "Ghasham International RP Tech"
+    },
+    {
+        "Name": "Apple Iphone 16 Pro Max / 1Tb Desert Titanium",
+        "Description": "Apple iPhone 16 Pro Max / 1TB Desert Titanium",
+        "Images": [
+            "https://images.snoonu.com/product/2024-9/7ec27043-a7b7-4a18-bca9-09f39bef64fb_IPH16PM1TBDST.png"
+        ],
+        "Prices": {
+            "main": "6,399 QR",
+            "discount": "6,099 QR"
+        },
+        "Availability": false,
+        "Attribute": {},
+        "shop": "Ghasham International RP Tech"
     }
 ]

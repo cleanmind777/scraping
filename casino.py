@@ -84,11 +84,12 @@ while True:
         continue
 driver.switch_to.frame(videoTag)
 driver.set_window_size(800,600)
+time.sleep(10)
 png = driver.get_screenshot_as_png()
 im = Image.open(BytesIO(png)) # uses PIL library to open image in memory
-
-im = im.crop((0, 0, 100, 100)) # defines crop points
-im.save('screenshot.png')
+im1 = im.crop((550, 0, 600, 100)) # defines crop points
+im1.save('screenshot1.png')
+print("sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss")
 while True:
     time.sleep(5)
     try :

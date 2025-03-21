@@ -1,0 +1,86 @@
+[
+    {
+        "Name": "iPhone 16 128GB Teal",
+        "Description": null,
+        "Images": [
+            "https://fnac.qa/media/catalog/product/i/p/iphone_16_teal_pdp_image_position_1__en-me.jpg?width=300&height=300&canvas=300,300&quality=80&bg-color=255,255,255&fit=bounds"
+        ],
+        "Prices": {
+            "main": "QAR 2,949",
+            "discount": null
+        },
+        "Availability": null,
+        "Attribute": {
+            "FNAC Reference": "TE0221036",
+            "Storage": "128 GB",
+            "Colour": "TEAL",
+            "Brand": "APPLE",
+            "Size": "6.1 INCH",
+            "EAN": "195949923913",
+            "Model Number": "MYDV3AE/A"
+        }
+    },
+    {
+        "Name": "iPhone 16 256GB Pink",
+        "Description": null,
+        "Images": [
+            "https://fnac.qa/media/catalog/product/i/p/iphone_16_pink_pdp_image_position_1__en-me_2.jpg?width=300&height=300&canvas=300,300&quality=80&bg-color=255,255,255&fit=bounds"
+        ],
+        "Prices": {
+            "main": "QAR 3,434",
+            "discount": null
+        },
+        "Availability": null,
+        "Attribute": {
+            "FNAC Reference": "TE0221039",
+            "Storage": "256 GB",
+            "Colour": "Pink",
+            "Brand": "APPLE",
+            "Size": "6.1 INCH",
+            "EAN": "195949923944",
+            "Model Number": "MYDY3AE/A"
+        }
+    },
+    {
+        "Name": "iPhone 16 256GB Teal",
+        "Description": null,
+        "Images": [
+            "https://fnac.qa/media/catalog/product/i/p/iphone_16_teal_pdp_image_position_1__en-me_1.jpg?width=300&height=300&canvas=300,300&quality=80&bg-color=255,255,255&fit=bounds"
+        ],
+        "Prices": {
+            "main": "QAR 3,434",
+            "discount": null
+        },
+        "Availability": null,
+        "Attribute": {
+            "FNAC Reference": "TE0221041",
+            "Storage": "256 GB",
+            "Colour": "TEAL",
+            "Brand": "APPLE",
+            "Size": "6.1 INCH",
+            "EAN": "195949923968",
+            "Model Number": "MYE13AE/A"
+        }
+    },
+    {
+        "Name": "iPhone 16 512GB Black",
+        "Description": null,
+        "Images": [
+            "https://fnac.qa/media/catalog/product/i/p/iphone_16_black_pdp_image_position_1__en-me_1.jpg?width=300&height=300&canvas=300,300&quality=80&bg-color=255,255,255&fit=bounds"
+        ],
+        "Prices": {
+            "main": "QAR 4,284",
+            "discount": null
+        },
+        "Availability": null,
+        "Attribute": {
+            "FNAC Reference": "TE0221042",
+            "Storage": "512 GB",
+            "Colour": "Black",
+            "Brand": "APPLE",
+            "Size": "6.1 INCH",
+            "EAN": "195949923975",
+            "Model Number": "MYE23AE/A"
+        }
+    }
+]
