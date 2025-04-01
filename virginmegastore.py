@@ -21,7 +21,7 @@ def parseURL(url):
 # Initialize the WebDriver (e.g., Chrome)
 driver = webdriver.Chrome()
 # Open a webpage
-driver.get("https://www.virginmegastore.qa/en/electronics-accessories/mobiles-accessories/mobile-phones/c/n010301?page=1")
+driver.get("https://www.virginmegastore.qa/en/electronics-accessories/mobiles-accessories/mobile-phones/c/n010301")
 
 # Scroll until no more content is loaded
 wait = WebDriverWait(driver, 100)
@@ -35,7 +35,6 @@ while next_element is not None:
     productList = []
     for mobile in mobiles:
         attributes = {}
-        # print('111111111111111111111111111111111111111111111111111111111111111111111')
         mobile = wait.until(EC.element_to_be_clickable(mobile))
         driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", mobile)
         brand = mobile.find_element(By.CLASS_NAME, 'product-list__brand').text
@@ -86,36 +85,8 @@ while next_element is not None:
         time.sleep(3)
         description = descriptionTag.find_element(By.CSS_SELECTOR, '.tabContent__paragraph.tabsDescription__longDescription__inner')
         print(description.text)
-        # p_tags = WebDriverWait(description, 30).until(
-        #         EC.presence_of_all_elements_located((By.TAG_NAME, "p"))
-        # )
-        # if p_tags:
-        #     elementDescrition = p_tags
-        # else:
-        #     print("No <p> tags found within the special tag. Searching for <li> tags...")
-            
-        #     # Wait for <li> tags to appear within the special tag
-        #     li_tags = WebDriverWait(description, 30).until(
-        #         EC.presence_of_all_elements_located((By.TAG_NAME, "li"))
-        #     )
-            
-        #     if li_tags:
-        #         elementDescrition = li_tags
-        #     else:
-        #         print("No <li> tags found within the special tag.")
-
-        # try : 
-        #     # elementDescrition = description.find_elements(By.TAG_NAME,'p')
-            
-        #     elementDescrition = description.find_elements(By.TAG_NAME,'p')
-        # except :
-        #     elementDescrition = description.find_elements(By.TAG_NAME,'li')
         descriptionResult = description.text
-        # for p in elementDescrition:
-        #     driver.execute_script("arguments[0].scrollIntoView();", p)
-        #     descriptionResult = descriptionResult +'\n'+ p.text
         print(descriptionResult)
-        print("122222222222222222222222222222222222222222222222222222")
         try : 
             attributeTag = WebDriverWait(detail, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, '.pdp-tabs__tab.details-tab.ui-tabs-panel.ui-corner-bottom.ui-widget-content'))
@@ -141,11 +112,9 @@ while next_element is not None:
                 driver.implicitly_wait(5)
                 attributes[keytext] = value.text
         except :
-            print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
             try : 
                 print(driver.page_source)
                 elements = detail.find_elements(By.TAG_NAME,'tr')
-                print("//////////////////////////////////////////////////////")
                 for element in elements:
                     print(i)
                     i = i + 1
