@@ -32,23 +32,31 @@ class Point:
     self.x = x
     self.y = y
 xx = 0
+field4 = Point(315 / 784, 356 / 553)
+field5 = Point(360 / 784, 356 / 553)
+field6 = Point(404 / 784, 356 / 553)
+field8 = Point(447 / 784, 356 / 553)
+field9 = Point(492 / 784, 356 / 553)
+field10 = Point(538 / 784, 356 / 553)
+fieldAll = Point(458 / 784, 402 / 553)
+dollar05 = Point(367 / 784, 467 / 553)
+dollar1 = Point(391 / 784, 467 / 553)
+dollar2 = Point(414 / 784, 467 / 553)
+dollar5 = Point(438 / 784, 467 / 553)
+dollar25 = Point(462 / 784, 467 / 553)
+dollar100 = Point(485 / 784, 467 / 553)
+cancelNoti = Point(216 / 784, 177 / 553)
+fullmode = Point(641 / 784, 497 / 553)
+view = Point(650 / 784, 97 / 553)
+Result1 = Point(440 / 784, 287 / 553)
+Result2 = Point(454 / 784, 298 / 553)
 while True:
     xx = xx + 1
     driver = webdriver.Chrome(options=chrome_options)
-    driver.get("https://roobet.com/casino/game/evolution:craps?modal=auth&tab=login")
-    field4 = Point(282 / 784, 303 / 453)
-    field5 = Point(325 / 784, 303 / 453)
-    field6 = Point(371 / 784, 303 / 453)
-    field8 = Point(413 / 784, 303 / 453)
-    field9 = Point(457 / 784, 303 / 453)
-    field10 = Point(507 / 784, 303 / 453)
-    fieldAll = Point(423 / 784, 352 / 453)
-    dollar05 = Point(327 / 784, 420 / 453)
-    dollar1 = Point(353 / 784, 420 / 453)
-    dollar2 = Point(379 / 784, 420 / 453)
-    dollar5 = Point(404 / 784, 420 / 453)
-    dollar25 = Point(431 / 784, 420 / 453)
-    dollar100 = Point(456 / 784, 420 / 453)
+    if xx == 1:
+        driver.get("https://roobet.com/casino/game/evolution:craps?modal=auth&tab=login")
+    else :
+        driver.get("https://roobet.com/casino/game/evolution:craps")
     # Scroll until no more content is loaded
     # lgBtn = WebDriverWait(driver, 100).until(
     #     EC.presence_of_element_located((By.CSS_SELECTOR, ".MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedTertiary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorTertiary.MuiButton-root.MuiButton-contained.MuiButton-containedTertiary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-colorTertiary.css-8irxk2"))
@@ -60,11 +68,11 @@ while True:
     driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", username)
     username.clear()
             # Input a new value
-    username.send_keys("hasachkhi@gmail.com")
+    username.send_keys("cleanmindUA")
     password = driver.find_element(By.ID,'auth-dialog-current-password')
     time.sleep(2)
     driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", password)
-    password.send_keys("123!@#QWErty")
+    password.send_keys("hpscks0518")
     password.send_keys(Keys.ENTER)
     try :
         time.sleep(20)
@@ -126,69 +134,78 @@ while True:
             continue
 
 
-    while True:
-        time.sleep(5)
-        try :
-            videoTag = driver.find_element(By.TAG_NAME, "iframe")
-            driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", videoTag)
-            link = videoTag.get_attribute('src')
-            break
-        except :
-            print("yet")
-            continue
-    print(link)
-    driver.execute_script(f"window.open('{link}', '_blank');")
+    # while True:
+    #     time.sleep(5)
+    #     try :
+    #         videoTag = driver.find_element(By.TAG_NAME, "iframe")
+    #         driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", videoTag)
+    #         link = videoTag.get_attribute('src')
+    #         break
+    #     except :
+    #         print("yet")
+    #         continue
+    # print(link)
+    # driver.execute_script(f"window.open('{link}', '_blank');")
 
-    # Switch to the new tab
-    # Get the list of all window handles
-    window_handles = driver.window_handles
+    # # Switch to the new tab
+    # # Get the list of all window handles
+    # window_handles = driver.window_handles
 
-    # Switch to the last handle (the new tab)
-    driver.switch_to.window(window_handles[-1])
+    # # Switch to the last handle (the new tab)
+    # driver.switch_to.window(window_handles[-1])
     print("Preparing.............")
-    while True:
-        time.sleep(5)
-        try :
-            videoTag = driver.find_element(By.TAG_NAME, "iframe")
-            driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", videoTag)
-            link = videoTag.get_attribute('src')
-            break
-        except :
-            print("yet")
-            continue
-    driver.switch_to.frame(videoTag)
-    driver.set_window_size(800,600)
+    # while True:
+    #     time.sleep(5)
+    #     try :
+    #         videoTag = driver.find_element(By.TAG_NAME, "iframe")
+    #         driver.execute_script("window.scrollTo(0, arguments[0].getBoundingClientRect().top - (window.innerHeight / 2));", videoTag)
+    #         link = videoTag.get_attribute('src')
+    #         break
+    #     except :
+    #         print("yet")
+    #         continue
+    # driver.switch_to.frame(videoTag)
+    driver.set_window_size(800,700)
     time.sleep(10)
-    png = driver.get_screenshot_as_png()
-    im = Image.open(BytesIO(png)) # uses PIL library to open image in memory
-    im1 = im.crop((im.width / 760 * 610, im.height * 10 / 440, im.width / 760 * 620, im.height * 20 / 440)) # defines crop points
-    im1.save('screenshot1.png')
-    # print("sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss")
-    time.sleep(5)
+    # png = driver.get_screenshot_as_png()
+    # im = Image.open(BytesIO(png)) # uses PIL library to open image in memory
+    # # im.save(f'full{z}')
+    # im1 = im.crop((im.width / 760 * 610, im.height * 10 / 440, im.width / 760 * 620, im.height * 20 / 440)) # defines crop points
+    
+    # # print("sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss")
+    # time.sleep(5)
 
     # pyautogui.moveTo(x, y)
     # pyautogui.click()
+    #cancel notification
     width = driver.execute_script("return window.innerWidth")
     height = driver.execute_script("return window.innerHeight")
-    x = width / 760 * 615
-    y = height * 15 / 440
+    x = width * cancelNoti.x
+    y = height * cancelNoti.y
     actions = ActionChains(driver)
     actions.move_by_offset(x, y).click().perform()
+    time.sleep(0.5)
+    # click full mode
+    actions.reset_actions()
+    actions.move_by_offset(width * fullmode.x, height * fullmode.y).click().perform()
+    # click view mode
+    actions.reset_actions()
+    actions.move_by_offset(width * view.x, height * view.y).click().perform()
     print("Casino Start....")
     z = 0
-    x1 = 494 / 984 * 800
-    y1 = 139 / 569 * 600
+    # x1 = 433 / 784 * 800
+    # y1 = 276 / 463 * 600
     list = ['0','0','0','0']
     count7 = 0
-    while z < 600:
+    while z < 5000:
         z = z + 1
         print(f'----------------{z}')
-        actions.reset_actions()
-        actions.move_by_offset(x1, y1).click().perform()
+        # actions.reset_actions()
+        # actions.move_by_offset(x1, y1).click().perform()
         png = driver.get_screenshot_as_png()
         im = Image.open(BytesIO(png)) # uses PIL library to open image in memory
-        im1 = im.crop((im.width / 784 * 410, im.height * 223 / 453, im.width / 784 * 423, im.height * 235 / 423)) # defines crop points
-        # im.save(f'full{z}.png')
+        im1 = im.crop((im.width * Result1.x, im.height * Result1.y, im.width * Result2.x, im.height * Result2.y)) # defines crop points
+        im.save(f'full{z}.png')
         im1 = im1.resize((im1.width*2, im1.height*2), Image.Resampling.LANCZOS)
         im1.save(f'screenshot{z}.png')
         time.sleep(0.5)
@@ -205,21 +222,21 @@ while True:
             viewport_width = driver.execute_script("return document.documentElement.clientWidth;")
             viewport_height = driver.execute_script("return document.documentElement.clientHeight;")
             if list[2] == '7':
-                time.sleep(3)
+                time.sleep(4)
                 actions.reset_actions()
-                actions.move_by_offset(field5.x * viewport_width, field5.y * viewport_height).click_and_hold().move_by_offset(viewport_width - 1 - field5.x * viewport_width, viewport_height - 1 - field5.y * viewport_height).release().perform()
+                actions.move_by_offset(field5.x * viewport_width, field5.y * viewport_height).click_and_hold().move_by_offset(viewport_width * 706 / 784 - field5.x * viewport_width, viewport_height * 426 / 553 - field5.y * viewport_height).release().perform()
                 actions.reset_actions()
-                actions.move_by_offset(field6.x * viewport_width, field6.y * viewport_height).click_and_hold().move_by_offset(viewport_width - 1 - field6.x * viewport_width, viewport_height - 1 - field6.y * viewport_height).release().perform()
+                actions.move_by_offset(field6.x * viewport_width, field6.y * viewport_height).click_and_hold().move_by_offset(viewport_width * 706 / 784 - field6.x * viewport_width, viewport_height * 426 / 553 - field6.y * viewport_height).release().perform()
                 actions.reset_actions()
-                actions.move_by_offset(field8.x * viewport_width, field8.y * viewport_height).click_and_hold().move_by_offset(viewport_width - 1 - field8.x * viewport_width, viewport_height - 1 - field8.y * viewport_height).release().perform()
+                actions.move_by_offset(field8.x * viewport_width, field8.y * viewport_height).click_and_hold().move_by_offset(viewport_width * 706 / 784 - field8.x * viewport_width, viewport_height * 426 / 553 - field8.y * viewport_height).release().perform()
                 actions.reset_actions()
-                actions.move_by_offset(fieldAll.x * viewport_width, fieldAll.y * viewport_height).click_and_hold().move_by_offset(viewport_width - 1 - fieldAll.x * viewport_width, viewport_height - 1 - fieldAll.y * viewport_height).release().perform()
+                actions.move_by_offset(fieldAll.x * viewport_width, fieldAll.y * viewport_height).click_and_hold().move_by_offset(viewport_width * 706 / 784 - fieldAll.x * viewport_width, viewport_height * 426 / 553 - fieldAll.y * viewport_height).release().perform()
             if data == '7':
                 count7 = count7 + 1
                 if count7 >= 1:
                     print('Plz bet!!!!!!!!!!!!!')
-                    time.sleep(3)
-                    driver.execute_script("window.scrollTo({}, {});".format(dollar05.x * 800, dollar05.y * 600))
+                    time.sleep(5)
+                    # driver.execute_script("window.scrollTo({}, {});".format(dollar05.x * 800, dollar05.y * 600))
                     actions.reset_actions()
                     actions.move_by_offset(dollar05.x * viewport_width, dollar05.y * viewport_height).click().perform()
                     actions.reset_actions()
@@ -238,4 +255,3 @@ while True:
         # thresh = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
         # data = pytesseract.image_to_string(thresh, lang='eng',config='--psm 6')
         time.sleep(0.5)
-    driver.quit()
