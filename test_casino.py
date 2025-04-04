@@ -50,6 +50,7 @@ fullmode = Point(641 / 784, 497 / 553)
 view = Point(650 / 784, 97 / 553)
 Result1 = Point(440 / 784, 287 / 553)
 Result2 = Point(454 / 784, 298 / 553)
+list = ['0','0','0','0']
 while True:
     xx = xx + 1
     driver = webdriver.Chrome(options=chrome_options)
@@ -193,15 +194,15 @@ while True:
     actions.move_by_offset(width * view.x, height * view.y).click().perform()
     print("Casino Start....")
     z = 0
-    # x1 = 433 / 784 * 800
-    # y1 = 276 / 463 * 600
-    list = ['0','0','0','0']
+    x1 = 179 / 784 * 800
+    y1 = 180 / 553 * 700
+    
     count7 = 0
     while z < 5000:
         z = z + 1
         print(f'----------------{z}')
-        # actions.reset_actions()
-        # actions.move_by_offset(x1, y1).click().perform()
+        actions.reset_actions()
+        actions.move_by_offset(x1, y1).click().perform()
         png = driver.get_screenshot_as_png()
         im = Image.open(BytesIO(png)) # uses PIL library to open image in memory
         im1 = im.crop((im.width * Result1.x, im.height * Result1.y, im.width * Result2.x, im.height * Result2.y)) # defines crop points
@@ -235,7 +236,7 @@ while True:
                 count7 = count7 + 1
                 if count7 >= 1:
                     print('Plz bet!!!!!!!!!!!!!')
-                    time.sleep(5)
+                    time.sleep(3)
                     # driver.execute_script("window.scrollTo({}, {});".format(dollar05.x * 800, dollar05.y * 600))
                     actions.reset_actions()
                     actions.move_by_offset(dollar05.x * viewport_width, dollar05.y * viewport_height).click().perform()
