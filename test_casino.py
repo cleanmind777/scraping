@@ -223,7 +223,7 @@ while True:
             viewport_width = driver.execute_script("return document.documentElement.clientWidth;")
             viewport_height = driver.execute_script("return document.documentElement.clientHeight;")
             if list[2] == '7':
-                time.sleep(4)
+                time.sleep(2)
                 actions.reset_actions()
                 actions.move_by_offset(field5.x * viewport_width, field5.y * viewport_height).click_and_hold().move_by_offset(viewport_width * 706 / 784 - field5.x * viewport_width, viewport_height * 426 / 553 - field5.y * viewport_height).release().perform()
                 actions.reset_actions()
