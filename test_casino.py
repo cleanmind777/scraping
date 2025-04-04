@@ -222,8 +222,8 @@ while True:
             print(f'Roll history: {list}')
             viewport_width = driver.execute_script("return document.documentElement.clientWidth;")
             viewport_height = driver.execute_script("return document.documentElement.clientHeight;")
+            time.sleep(2)
             if list[2] == '7':
-                time.sleep(2)
                 actions.reset_actions()
                 actions.move_by_offset(field5.x * viewport_width, field5.y * viewport_height).click_and_hold().move_by_offset(viewport_width * 706 / 784 - field5.x * viewport_width, viewport_height * 426 / 553 - field5.y * viewport_height).release().perform()
                 actions.reset_actions()
@@ -236,7 +236,6 @@ while True:
                 count7 = count7 + 1
                 if count7 >= 1:
                     print('Plz bet!!!!!!!!!!!!!')
-                    time.sleep(3)
                     # driver.execute_script("window.scrollTo({}, {});".format(dollar05.x * 800, dollar05.y * 600))
                     actions.reset_actions()
                     actions.move_by_offset(dollar05.x * viewport_width, dollar05.y * viewport_height).click().perform()
